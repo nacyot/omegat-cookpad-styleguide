@@ -1,0 +1,2177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_3" segtype="sentence" srclang="JA"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="JA">
+        <seg># Ruby コーディング規準</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161849Z" creationid="nacyot" creationdate="20140317T161849Z">
+        <seg># 루비(Ruby) 스타일 가이드</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg># Style guides in COOKPAD</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg># Style guides in COOKPAD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg># bad</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg># bad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg># coding: utf-8</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg># coding: utf-8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg># good</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg># good</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg># 目次</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161444Z" creationid="nacyot" creationdate="20140317T161444Z">
+        <seg># 목차</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## ARC</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>## ARC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## Enum</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>## Enum</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## Guides</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>## Guides</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## Keywords</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>## Keywords</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## License</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>## License</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## はじめに</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161851Z" creationid="nacyot" creationdate="20140317T161851Z">
+        <seg>## 시작하며</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>'buzz' : "#{n}"</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>'buzz' : "#{n}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>'buzz' : "#{n}")</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>'buzz' : "#{n}")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>'fizzbuzz' : 'fizz'</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>'fizzbuzz' : 'fizz'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>'fizzbuzz' : 'fizz') :</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>'fizzbuzz' : 'fizz') :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>'fizzbuzz' : 'fizz') : (n % 5 == 0 ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>'fizzbuzz' : 'fizz') : (n % 5 == 0 ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>(1..10).to_a  #=&gt; [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>(1..10).to_a  #=&gt; [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>(n % 5 == 0 ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>(n % 5 == 0 ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- (void)_privateMethod1;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>- (void)_privateMethod1;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- Java ([Japanese](java.ja.md))</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>- Java ([Japanese](java.ja.md))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- Objective-C ([Japanese](objective-c.ja.md))</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>- Objective-C ([Japanese](objective-c.ja.md))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- Ruby ([Japanese](ruby.ja.md), [English](ruby.en.md))</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>- Ruby ([Japanese](ruby.ja.md), [English](ruby.en.md))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [1行の文字数](#line-columns)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161628Z" creationid="nacyot" creationdate="20140317T161624Z">
+        <seg>- [한 줄의 글자수](#line-columns)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [ARC](#ARC)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>- [ARC](#ARC)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [BEGIN と END](#begin-and-end)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161814Z" creationid="nacyot" creationdate="20140317T161814Z">
+        <seg>- [BEGIN과 END](#begin-and-end)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [Enum] (#Enum)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>- [Enum] (#Enum)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [Ruby バージョン](#ruby-version)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161454Z" creationid="nacyot" creationdate="20140317T161454Z">
+        <seg>- [Ruby 버전](#ruby-version)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [インデント](#indentation)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161511Z" creationid="nacyot" creationdate="20140317T161511Z">
+        <seg>- [들여쓰기](#indentation)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [ハッシュ](#hashes)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161658Z" creationid="nacyot" creationdate="20140317T161658Z">
+        <seg>- [해시](#hashes)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [メソッドの定義](#method-definitions)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161832Z" creationid="nacyot" creationdate="20140317T161832Z">
+        <seg>- [메소드 정의](#method-definitions)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [メソッド呼び出し](#method-calls)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161811Z" creationid="nacyot" creationdate="20140317T161811Z">
+        <seg>- [메소드 호출](#method-calls)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [モジュールとクラスの定義](#module-and-class-definitions)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161825Z" creationid="nacyot" creationdate="20140317T161825Z">
+        <seg>- [모듈과 클래스 정의](#module-and-class-definitions)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [代入式](#assignments)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161740Z" creationid="nacyot" creationdate="20140317T161740Z">
+        <seg>- [대입](#assignments)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [制御構造](#control-structures)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161801Z" creationid="nacyot" creationdate="20140317T161801Z">
+        <seg>- [제어구조](#control-structures)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [変数](#variables)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161835Z" creationid="nacyot" creationdate="20140317T161835Z">
+        <seg>- [변수](#variables)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [数値](#numbers)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161643Z" creationid="nacyot" creationdate="20140317T161643Z">
+        <seg>- [숫자](#numbers)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [文字エンコーディングとマジックコメント](#character-encoding-and-magic-comments)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161608Z" creationid="nacyot" creationdate="20140317T161608Z">
+        <seg>- [문자 인코딩과 매직 코멘트](#character-encoding-and-magic-comments)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [文字列](#strings)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161647Z" creationid="nacyot" creationdate="20140317T161647Z">
+        <seg>- [문자열](#strings)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [正規表現](#regular-expressions)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161724Z" creationid="nacyot" creationdate="20140317T161651Z">
+        <seg>- [정규표현식](#regular-expressions)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [演算式](#operations)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161743Z" creationid="nacyot" creationdate="20140317T161734Z">
+        <seg>- [계산](#operations)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [空白](#whitespaces)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161531Z" creationid="nacyot" creationdate="20140317T161531Z">
+        <seg>- [공백](#whitespaces)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [空行](#empty-lines)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161539Z" creationid="nacyot" creationdate="20140317T161539Z">
+        <seg>- [빈 행](#empty-lines)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- [配列](#arrays)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161653Z" creationid="nacyot" creationdate="20140317T161653Z">
+        <seg>- [배열](#arrays)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- __"MUST"__ means required.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>- __"MUST"__ means required.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- __"SHOULD"__ means recommended.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>- __"SHOULD"__ means recommended.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>.merge(User.paid)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>.merge(User.paid)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>.where(created_at: target_date)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>.where(created_at: target_date)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>.where(created_at: target_date).each do |post|</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>.where(created_at: target_date).each do |post|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>// ...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>// ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>// Bad</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>// Bad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>// Good</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>// Good</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>// Samples</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>// Samples</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>// TODO: Change this to use a flag instead of a constant.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>// TODO: Change this to use a flag instead of a constant.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>// TODO: Remove this code after the UrlTable2 has been checked in.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>// TODO: Remove this code after the UrlTable2 has been checked in.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>// ViewController.h</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>// ViewController.h</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>// ViewController.m</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>// ViewController.m</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>// bad</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>// bad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>// good</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>// good</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>10.times { puts 'Hello world' }</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>10.times { puts 'Hello world' }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>10.times { puts 'Hello world'}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>10.times { puts 'Hello world'}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>10.times {puts 'Hello world' }</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>10.times {puts 'Hello world' }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>10.times {puts 'Hello world'}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>10.times {puts 'Hello world'}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>:'cookpad.com' =&gt; 'foo',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>:'cookpad.com' =&gt; 'foo',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>:bar,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>:bar,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>:baz</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>:baz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>:baz,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>:baz,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>:baz, ]</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>:baz, ]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>:foo,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>:foo,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>:second =&gt; 'foo',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>:second =&gt; 'foo',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a id="ARC"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a id="ARC"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a id="Definitions_of_methods"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a id="Definitions_of_methods"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a id="Definitions_of_modules_and_classes"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a id="Definitions_of_modules_and_classes"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a id="Enum"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a id="Enum"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a id="Misc"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a id="Misc"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a id="Naming"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a id="Naming"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a id="Property"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a id="Property"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a id="Variables"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a id="Variables"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="acronyms"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="acronyms"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="arrays"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="arrays"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="assignments"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>&lt;a name="assignments"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="begin-and-end"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>&lt;a name="begin-and-end"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="braces"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>&lt;a name="braces"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="character-encoding-and-magic-comments"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="character-encoding-and-magic-comments"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="control-structures"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>&lt;a name="control-structures"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="empty-lines"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="empty-lines"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="empty_lines"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>&lt;a name="empty_lines"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="field_names"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="field_names"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="hashes"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>&lt;a name="hashes"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="imports"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>&lt;a name="imports"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="indentation"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>&lt;a name="indentation"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="line-columns"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="line-columns"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="line_columns"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="line_columns"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="method-calls"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>&lt;a name="method-calls"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="method-definitions"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>&lt;a name="method-definitions"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="module-and-class-definitions"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>&lt;a name="module-and-class-definitions"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="new_lines"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>&lt;a name="new_lines"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="numbers"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="numbers"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="operations"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>&lt;a name="operations"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="regular-expressions"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="regular-expressions"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="resources"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="resources"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="ruby-version"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="ruby-version"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="strings"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="strings"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="todo"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="todo"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="variables"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161439Z" creationid="nacyot" creationdate="20140317T161439Z">
+        <seg>&lt;a name="variables"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="whitespace"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>&lt;a name="whitespace"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>&lt;a name="whitespaces"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>&lt;a name="whitespaces"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>= someLongExpression(that, wouldNotFit, on, one, line);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>= someLongExpression(that, wouldNotFit, on, one, line);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@end</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@implementation ViewController</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@implementation ViewController</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@interface Hoge ()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@interface Hoge ()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@interface OriginalView</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@interface OriginalView</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@interface ViewController ()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@interface ViewController ()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@interface ViewController () &lt;UITableViewDataSource&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@interface ViewController () &lt;UITableViewDataSource&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@interface ViewController : UIViewController</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@interface ViewController : UIViewController</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@interface ViewController : UIViewController &lt;UITableViewDataSource&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@interface ViewController : UIViewController &lt;UITableViewDataSource&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@property (assign) id delegate;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@property (assign) id delegate;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@property (readonly) UILabel *label;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@property (readonly) UILabel *label;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@property (strong) IBOutlet UILabel *label;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@property (strong) IBOutlet UILabel *label;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@property (weak) IBOutlet UIButton *button;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@property (weak) IBOutlet UIButton *button;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@property (weak) IBOutlet UILabel *label;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@property (weak) IBOutlet UILabel *label;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@property (weak) IBOutlet UITextView *textView;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@property (weak) IBOutlet UITextView *textView;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>@property (weak) id delegate;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>@property (weak) id delegate;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ActionMailer::Base.delivery_method :smtp,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>ActionMailer::Base.delivery_method :smtp,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Developers must abide by these conventions before merging into master.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>Developers must abide by these conventions before merging into master.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>During code reviews, it is common for many small issues to be raised.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>During code reviews, it is common for many small issues to be raised.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Foo.new(</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>Foo.new(</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Foo.new(arg,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>Foo.new(arg,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>Instrument i</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>Instrument i</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>NSArray *array = @[@"one", @"two"];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>NSArray *array = @[@"one", @"two"];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>NSArray *array = [NSArray arrayWithObjects:@"one", @"two", nil];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>NSArray *array = [NSArray arrayWithObjects:@"one", @"two", nil];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>NSDictionary *dictionary = @{@"key" : @"value"};</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>NSDictionary *dictionary = @{@"key" : @"value"};</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Key", @"Value", nil];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:@"Key", @"Value", nil];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>NSNumber *_recipeID;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>NSNumber *_recipeID;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>NSNumber *fortyTwo = @42;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>NSNumber *fortyTwo = @42;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>NSNumber *fortyTwo = [NSNumber numberWithInt:42];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>NSNumber *fortyTwo = [NSNumber numberWithInt:42];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>OPEN_PARENTHESES = %!({[!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>OPEN_PARENTHESES = %!({[!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>TypeDone = 1,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>TypeDone = 1,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>TypeNone = 0,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>TypeNone = 0,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>UIButton *originalButton = [CKDOriginalButton buttonWithType:UIButtonTypeCustom];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>UIButton *originalButton = [CKDOriginalButton buttonWithType:UIButtonTypeCustom];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>UITableViewCell *originalCell = [[CKDOriginalCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"XXX"];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>UITableViewCell *originalCell = [[CKDOriginalCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"XXX"];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>UITextField *originalTextField = [CKDOriginalTextField new];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>UITextField *originalTextField = [CKDOriginalTextField new];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>UIView *originalView = [CKDOriginalView new];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>UIView *originalView = [CKDOriginalView new];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>User.active.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>User.active.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>While it is not critical for developers to fix all of these notes, they are encouraged to stay as close to the style guidelines as possible.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>While it is not critical for developers to fix all of these notes, they are encouraged to stay as close to the style guidelines as possible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>XMLHTTPRequest</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>XMLHTTPRequest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>XmlHttpRequest</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>XmlHttpRequest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[ :foo,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>[ :foo,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[*1..10]  #=&gt; [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>[*1..10]  #=&gt; [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[1, 2, 3].each do |num|</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>[1, 2, 3].each do |num|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[1, 2, 3].each do |num| puts num end</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>[1, 2, 3].each do |num| puts num end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[1, 2, 3].each { |num| puts num }</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>[1, 2, 3].each { |num| puts num }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[1, 2, 3].each { |num| puts num}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>[1, 2, 3].each { |num| puts num}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[1, 2, 3].each {|num| puts num }</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>[1, 2, 3].each {|num| puts num }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[1, 2, 3].each {|num| puts num}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>[1, 2, 3].each {|num| puts num}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[1, 2, 3].map do |n|</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>[1, 2, 3].map do |n|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[1, 2, 3].map {|n|</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>[1, 2, 3].map {|n|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[:foo,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>[:foo,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[Code Conventions for the Java TM Programming Language](http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>[Code Conventions for the Java TM Programming Language](http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[Code Style Guidelines for Contributors](http://source.android.com/source/code-style.html)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>[Code Style Guidelines for Contributors](http://source.android.com/source/code-style.html)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[Creative Commons Attribution (CC-BY 3.0)](http://creativecommons.org/licenses/by/3.0/)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>[Creative Commons Attribution (CC-BY 3.0)](http://creativecommons.org/licenses/by/3.0/)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>[view setBackgroundColor:[UIColor whiteColor]];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>[view setBackgroundColor:[UIColor whiteColor]];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>]</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`(?: ...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>`(?: ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>```</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>``` ruby</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>``` ruby</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>```java</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>```java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>```ruby</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>```ruby</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>arg,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>arg,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>array = [</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>array = [</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>array = [ :foo,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>array = [ :foo,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>body();</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>body();</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>body_code</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>body_code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>class &lt;&lt; self</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>class &lt;&lt; self</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>class &lt;&lt;self</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>class &lt;&lt;self</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>class Foo</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>class Foo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>class MyClass</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>class MyClass</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>class MyClass {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>class MyClass {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>comment_count += post.comments.size</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>comment_count += post.comments.size</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>def Foo.foo</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>def Foo.foo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>def bar</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>def bar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>def foo</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>def foo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>def self.foo</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>def self.foo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>def your_method(str)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>def your_method(str)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>else</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>else</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>else if (somethingElse)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>else if (somethingElse)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>end</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>end.each do |n|</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>end.each do |n|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>first: 42,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>first: 42,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>fizzbuzz = if n % 3 == 0</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>fizzbuzz = if n % 3 == 0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>fizzbuzz = n % 3 == 0 ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>fizzbuzz = n % 3 == 0 ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>foo(1, 2, foo: :bar, baz: 42)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>foo(1, 2, foo: :bar, baz: 42)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>foo(1, 2, { foo: :bar, baz: 42 })</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>foo(1, 2, { foo: :bar, baz: 42 })</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>getCustomerID</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>getCustomerID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>getCustomerId</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>getCustomerId</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>hash = {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>hash = {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>hash = { first: 42,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>hash = { first: 42,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>host: 'localhost',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>host: 'localhost',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>http://clang.llvm.org/docs/ObjectiveCLiterals.html</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>http://clang.llvm.org/docs/ObjectiveCLiterals.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>http://google-styleguide.googlecode.com/svn/trunk/objcguide.xml</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>http://google-styleguide.googlecode.com/svn/trunk/objcguide.xml</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>https://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>https://developer.apple.com/library/ios/#documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>i * i</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>i * i</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>i.e.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>i.e.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>if (condition)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>if (condition)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>if (condition) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>if (condition) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>if (something)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>if (something)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>if (something) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>if (something) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>if condition</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>if condition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>int array[] = new int[10];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>int array[] = new int[10];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>int array[][] = new int[10][10];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>int array[][] = new int[10][10];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>int func()</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>int func()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>int func() {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161424Z" creationid="nacyot" creationdate="20140317T161424Z">
+        <seg>int func() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>int mPackagePrivate;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>int mPackagePrivate;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>int packagePrivate;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>int packagePrivate;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>int[] array = new int[10];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>int[] array = new int[10];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>int[] array[] = new int[10][10];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>int[] array[] = new int[10][10];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>int[][] array = new int[10][10];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>int[][] array = new int[10][10];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>key: value,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>key: value,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>long_argument,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>long_argument,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>long_key: long_value)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>long_key: long_value)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>long_key: long_value,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>long_key: long_value,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>n % 5 == 0 ?</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>n % 5 == 0 ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>n * n</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>n * n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>new_str = str.sub('xxx', 'yyy')</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>new_str = str.sub('xxx', 'yyy')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>next if stuff_ids.include?(post.user_id)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>next if stuff_ids.include?(post.user_id)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>other_scope(bar)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>other_scope(bar)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>port: 25</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>port: 25</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>posts = Post.joins(:user)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>posts = Post.joins(:user)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>posts.each do |post|</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>posts.each do |post|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>pretty_so_much_very_long_key:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>pretty_so_much_very_long_key:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>pretty_so_much_very_tooooooooooooooooooooo_long_value,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>pretty_so_much_very_tooooooooooooooooooooo_long_value,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>private</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>private</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>private :foo</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>private :foo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>private int mPrivate;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>private int mPrivate;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>private int private;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>private int private;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>private static MyClass sSingleton;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>private static MyClass sSingleton;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>private static MyClass singleton;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>private static MyClass singleton;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>protected int mProtected;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>protected int mProtected;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>protected int protected;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>protected int protected;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>public class MyClass {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>public class MyClass {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>puts Math.sqrt(n)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>puts Math.sqrt(n)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>puts [1, 2, 3].map do |i|</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>puts [1, 2, 3].map do |i|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>puts [1, 2, 3].map {|i|</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>puts [1, 2, 3].map {|i|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>puts num</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>puts num</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>result =</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>result =</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>result = if condition</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>result = if condition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>second: 'foo',</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>second: 'foo',</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>some_scope(foo).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>some_scope(foo).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>str.sub!('xxx', 'yyy')</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>str.sub!('xxx', 'yyy')</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>typedef NS_ENUM(char, Type) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>typedef NS_ENUM(char, Type) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>typedef enum {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>typedef enum {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>view.backgroundColor = [UIColor whiteColor];</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>view.backgroundColor = [UIColor whiteColor];</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>words = %w(foo bar baz)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>words = %w(foo bar baz)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>words = ['foo', 'bar', 'baz']</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>words = ['foo', 'bar', 'baz']</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>{</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>{</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>{ 'foo' =&gt; 1, 'bar' =&gt; 2 }</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>{ 'foo' =&gt; 1, 'bar' =&gt; 2 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>{ :cookpad =&gt; 42,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>{ :cookpad =&gt; 42,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>{ :first =&gt; 42,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>{ :first =&gt; 42,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>{ cookpad: 42,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>{ cookpad: 42,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>{ first: 42,</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>{ first: 42,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>{ foo: 1, bar: 2 }</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>{ foo: 1, bar: 2 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>{ hoge: 1, fuga: 2 }</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>{ hoge: 1, fuga: 2 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>{hoge: 1, fuga: 2}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>{hoge: 1, fuga: 2}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>}</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>} Type;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>} Type;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>} else if (somethingElse) {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>} else if (somethingElse) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>} else {</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>} else {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>}.each {|n|</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+        <seg>}.each {|n|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>};</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>};</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>本文書は、クックパッド株式会社での Ruby コードのスタイル規準を定めるものである。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T161912Z" creationid="nacyot" creationdate="20140317T161912Z">
+        <seg>이 문서는 주식회사 쿡패드(Cookpad)의 루비 코드 스타일 표준을 정의한 문서입니다.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

@@ -518,6 +518,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[SHOULD]** 複数行のハッシュリテラルでは、最後の要素の後ろにも `,` を書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165353Z" creationid="nacyot" creationdate="20140317T165353Z">
+        <seg>- **[SHOULD]** 여러줄로 된 해시 리터럴을 생성할 때는 마지막 요소 뒤에도 `,`를 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[SHOULD]** 複数行の配列リテラルでは、最後の要素の後ろにも `,` を書くこと。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T164801Z" creationid="nacyot" creationdate="20140317T164801Z">

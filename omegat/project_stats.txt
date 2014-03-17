@@ -1,13 +1,17 @@
-3/18/14 12:24 AM
-Project Statistics
+14. 3. 18 오전 1:13
+프로젝트 통계
 
-                 	Segments	Words	Characters (without spaces)	Characters (including spaces)	
-Total:           	       0	    0	                          0	                            0	
-Remaining:       	       0	    0	                          0	                            0	
-Unique:          	       0	    0	                          0	                            0	
-Unique Remaining:	       0	    0	                          0	                            0	
+      	 부분	  단어	문자 (공백 없이)	문자 (공백 포함)	
+총:    	906	4705	     19414	     20927	
+남은:   	906	4705	     19414	     20927	
+고유:   	542	4303	     17034	     18304	
+남은 고유:	542	4303	     17034	     18304	
 
 
-Individual File Statistics:
+개별 파일 통계:
 
-File Name	Total Segments	Remaining Segments	Unique Segments	Unique Remaining Segments	Total Words	Remaining Words	Unique Words	Unique Remaining Words	Total Characters (without spaces)	Remaining Characters (without spaces)	Unique Characters (without spaces)	Unique Remaining Characters (without spaces)	Total Characters (including spaces)	Remaining Characters (including spaces)	Unique Characters (including spaces)	Unique Remaining Characters (including spaces)	
+파일 이름            	총 부분	나머지 부분	고유 부분	남은 고유 부분	총 단어	남은 단어	고유 단어	나머지 고유 단어	총 문자 (공백 없이)	나머지 문자 (공백 없이)	고유 문자 (공백 없이)	나머지 고유 문자 (공백 없이)	총 문자 (공백 포함)	나머지 문자 (공백 포함)	고유 문자 (공백 포함)	나머지 고유 문자 (공백 포함)	
+java.ja.md       	 154	   154	  109	     109	 531	  531	  503	      503	        2622	          2622	         2381	             2381	        2816	          2816	         2551	             2551	
+objective-c.ja.md	 176	   176	  116	     116	 874	  874	  816	      816	        4537	          4537	         4033	             4033	        4785	          4785	         4239	             4239	
+README.md        	  13	    13	   13	      13	  83	   83	   83	       83	         542	           542	          542	              542	         612	           612	          612	              612	
+ruby.ja.md       	 563	   563	  304	     304	3217	 3217	 2901	     2901	       11713	         11713	        10078	            10078	       12714	         12714	        10902	            10902	

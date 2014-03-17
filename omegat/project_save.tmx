@@ -398,6 +398,22 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** 式展開の中で `Object#to_s` だけを呼び出してはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T232838Z" creationid="nacyot" creationdate="20140317T232838Z">
+        <seg>- **[MUST]** 문자열 보간에서 `Object#to_s`만 사용해서는 안 됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 式展開の中括弧を省略してはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T232912Z" creationid="nacyot" creationdate="20140317T232912Z">
+        <seg>- **[MUST]** 문자열 보간 시에는 반드시 중괄호를 사용합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** 引数なしの `Array.new` を使ってはならない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T164829Z" creationid="nacyot" creationdate="20140317T164821Z">
@@ -482,6 +498,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T162905Z" creationid="nacyot" creationdate="20140317T162905Z">
         <seg>- **[MUST]** 메소드 체인이 길어질 때 마지막 메소드를 호출할 때 블록을 넘길 필요가 있다면 마지막 메소드의 리시버를 로컬 변수로 저장하고 별개의 식으로 블록을 넘겨준다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** (Ruby 1.9+) Unicode 文字をエスケープシーケンスで書く場合は、`"\xE3\x8C\xB3"` ではなく `"\u{3333}"` のように、`\u` を使うこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T232943Z" creationid="nacyot" creationdate="20140317T232943Z">
+        <seg>- **[SHOULD]** (Ruby 1.9+) Unicode 문자를 이스케이스 시켄스로 입력할 때는 `"\xE3\x8C\xB3"` 방식이 아니라 `"\u{3333}"`와 같이 `\u`를 사용할 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1912,8 +1936,8 @@
       <tuv lang="JA">
         <seg>```ruby</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T165737Z" creationid="nacyot" creationdate="20140317T161425Z">
-        <seg>```ruby```ruby</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T232619Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>``` ruby</seg>
       </tuv>
     </tu>
     <tu>
@@ -2730,6 +2754,38 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165503Z" creationid="nacyot" creationdate="20140317T165503Z">
         <seg>단 `**` 연산자를 사용할 때는 양쪽 모두 공백을 넣지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ただし、Ruby 1.8 系でも動作する必要があるスクリプトではこの限りではない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T232946Z" creationid="nacyot" creationdate="20140317T232946Z">
+        <seg>단 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ただし、次のような特殊な場合は括弧以外を区切り記号として良い:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T233011Z" creationid="nacyot" creationdate="20140317T232748Z">
+        <seg>필요하다면 괄호 이외에 아래 기호들을 구분자로 사용한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>たとえばこういうの→`"#{obj.to_s}"`</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T232856Z" creationid="nacyot" creationdate="20140317T232856Z">
+        <seg>예) `"#{obj.to_s}"`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>括弧の種類はどれでも良い。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T233003Z" creationid="nacyot" creationdate="20140317T232711Z">
+        <seg>괄호의 종류는 어떤 걸 사용해도 되며, </seg>
       </tuv>
     </tu>
     <tu>

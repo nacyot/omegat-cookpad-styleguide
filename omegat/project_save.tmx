@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## 正規表現</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T164248Z" creationid="nacyot" creationdate="20140317T164248Z">
+        <seg>## 정규표현식</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## 空白</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163035Z" creationid="nacyot" creationdate="20140317T163035Z">
@@ -166,6 +174,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## 配列</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T164546Z" creationid="nacyot" creationdate="20140317T164546Z">
+        <seg>## 배열</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>'buzz' : "#{n}"</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
@@ -226,6 +242,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
         <seg>)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>)` を使うこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T164326Z" creationid="nacyot" creationdate="20140317T164326Z">
+        <seg>)`를 사용할 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -354,6 +378,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163025Z" creationid="nacyot" creationdate="20140317T163025Z">
         <seg>- **[SHOULD]** 식이 여러줄에 걸쳐 이어질 때 두번째 줄 부터는 첫번째 줄보다 한 단계 들여쓰기를 더 할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** 必要のない後方参照グループを作成してはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T164418Z" creationid="nacyot" creationdate="20140317T164320Z">
+        <seg>- **[SHOULD]** 재참조 하지 않는 캡쳐 그룹은 사용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -642,6 +674,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163505Z" creationid="nacyot" creationdate="20140317T163505Z">
         <seg>- 예: `1_000_000.001_023`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- 具体例は [uri/common.rb で定義されている正規表現](https://github.com/ruby/ruby/blob/trunk/lib/uri/common.rb#L457) が参考になる。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T164543Z" creationid="nacyot" creationdate="20140317T164543Z">
+        <seg>- 자세한 예는 [uri/common.rb 에 정의된 정규표현식](https://github.com/ruby/ruby/blob/trunk/lib/uri/common.rb#L457)을 참조.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1584,8 +1624,8 @@
       <tuv lang="JA">
         <seg>`(?: ...</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
-        <seg>`(?: ...</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T164430Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>캡쳐되지 않는 `(?: ...</seg>
       </tuv>
     </tu>
     <tu>

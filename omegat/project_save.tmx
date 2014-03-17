@@ -134,6 +134,22 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## 代入式</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165633Z" creationid="nacyot" creationdate="20140317T165633Z">
+        <seg>## 대입식</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## 制御構造</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165638Z" creationid="nacyot" creationdate="20140317T165638Z">
+        <seg>## 제어구조</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## 数値</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163423Z" creationid="nacyot" creationdate="20140317T163423Z">
@@ -162,6 +178,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T164248Z" creationid="nacyot" creationdate="20140317T164248Z">
         <seg>## 정규표현식</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## 演算式</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165408Z" creationid="nacyot" creationdate="20140317T165408Z">
+        <seg>## 계산식</seg>
       </tuv>
     </tu>
     <tu>
@@ -278,6 +302,22 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** `and`、`or`、および `not` は使用しないこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165525Z" creationid="nacyot" creationdate="20140317T165525Z">
+        <seg>- **[MUST]** `and`, `or`, `not`은 사용하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** `if`、`unless`、および `case` の条件式の後ろは改行すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165825Z" creationid="nacyot" creationdate="20140317T165825Z">
+        <seg>- **[MUST]** `if`, `unless`, `case` 조건식을 사용할 때는 줄바꿈을 사용한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** どんな事情があろうとも1行の文字数が128文字を越えてはならない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163420Z" creationid="nacyot" creationdate="20140317T163420Z">
@@ -318,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** 代入記号の両側に空白を入れること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165656Z" creationid="nacyot" creationdate="20140317T165656Z">
+        <seg>- **[MUST]** 대입 기호(=) 양쪽에 공백을 넣을 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** 引数なしの `Array.new` を使ってはならない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T164829Z" creationid="nacyot" creationdate="20140317T164821Z">
@@ -330,6 +378,30 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163850Z" creationid="nacyot" creationdate="20140317T163850Z">
         <seg>- **[MUST]** 문자열 안에서 이스케이프 시켄스를 최소화할 수 있도록 적절한 구분문자열을 선택할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 条件式で代入式を書かないこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165713Z" creationid="nacyot" creationdate="20140317T165713Z">
+        <seg>- **[MUST]** 조건식으로 대입문을 작성하지 말 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 条件演算子を入れ子にしてはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165616Z" creationid="nacyot" creationdate="20140317T165616Z">
+        <seg>- **[MUST]** 조건 연산자를 중첩적으로 사용하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 条件演算子を複数行で書いてはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165627Z" creationid="nacyot" creationdate="20140317T165627Z">
+        <seg>- **[MUST]** 조건 연산자를 여러줄에 작성하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -430,6 +502,30 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[SHOULD]** `if !condition` の代わりに `unless condition` と書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165728Z" creationid="nacyot" creationdate="20140317T165723Z">
+        <seg>- **[SHOULD]** `if !condition` 대신 `unless condition`을 사용.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** `unless` に対して `else` を使ってはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165749Z" creationid="nacyot" creationdate="20140317T165749Z">
+        <seg>- **[SHOULD]** `unless`를 사용할 때는 `else`를 사용하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** `while !condition` の代わりに `until condition` と書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165736Z" creationid="nacyot" creationdate="20140317T165736Z">
+        <seg>- **[SHOULD]** `while !condition` 대신 `until condition`을 사용</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[SHOULD]** ハッシュリテラルの key が symbol だが、`.`, `-`等を含む場合、HashRocket に統一するのが望ましい。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165304Z" creationid="nacyot" creationdate="20140317T165252Z">
@@ -482,6 +578,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163536Z" creationid="nacyot" creationdate="20140317T163536Z">
         <seg>- **[SHOULD]** 자리수가 큰 2진수나 16진수를 사용할 때는 4자리마다 밑줄을 넣어 읽기 쉽게 할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** 演算子の両側に空白を入れること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165444Z" creationid="nacyot" creationdate="20140317T165444Z">
+        <seg>- **[SHOULD]** 연산자 양쪽에 모두 공백을 사용할 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -738,6 +842,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
         <seg>- __"SHOULD"__ means recommended.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- ただし、`式 or raise 'message'`の時のみ`or`を使っても良い。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165546Z" creationid="nacyot" creationdate="20140317T165546Z">
+        <seg>- 단 `式 or raise 'message'`과 같이 사용할 때 `or`은 사용해도 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1768,8 +1880,8 @@
       <tuv lang="JA">
         <seg>```ruby</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
-        <seg>```ruby</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165737Z" creationid="nacyot" creationdate="20140317T161425Z">
+        <seg>```ruby```ruby</seg>
       </tuv>
     </tu>
     <tu>
@@ -2578,6 +2690,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
         <seg>};</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ただし `**` の両側には空白は入れないこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165503Z" creationid="nacyot" creationdate="20140317T165503Z">
+        <seg>단 `**` 연산자를 사용할 때는 양쪽 모두 공백을 넣지 않는다.</seg>
       </tuv>
     </tu>
     <tu>

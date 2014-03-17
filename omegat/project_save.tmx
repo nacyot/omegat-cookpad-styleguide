@@ -294,6 +294,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** 引数なしの `Array.new` を使ってはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T164821Z" creationid="nacyot" creationdate="20140317T164821Z">
+        <seg>- **[MUST]** 인수 없이 `Array.new` を使ってはならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** 文字列内部のエスケープシーケンスが最も少なくなるよう、適切な区切り記号を選択すること。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163850Z" creationid="nacyot" creationdate="20140317T163850Z">
@@ -310,10 +318,26 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** 空配列は `[]` と書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T164815Z" creationid="nacyot" creationdate="20140317T164815Z">
+        <seg>- **[MUST]** 빈 배열은 `[]`을 사용.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** 行末に空白を置いてはならない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163053Z" creationid="nacyot" creationdate="20140317T163053Z">
         <seg>- **[MUST]** 행의 맨 뒤에 공백을 넣지 말 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 配列リテラルを複数行で書く場合、`[`と一つ目の要素の間に1つの空白を入れて、要素の先頭を揃えること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T164632Z" creationid="nacyot" creationdate="20140317T164632Z">
+        <seg>- **[MUST]** 배열 리터럴을 여러줄에 걸쳐서 작성할 때는 `[`와 첫번째 요소 사이에 하나의 공백을 두어 요소들의 줄을 맞출 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -390,6 +414,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[SHOULD]** 文字列配列は%記法 `%w(...)` or `%W(...)` を用いて書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T164738Z" creationid="nacyot" creationdate="20140317T164738Z">
+        <seg>- **[SHOULD]** 문자열로 구성된 배열을 만들 때는 `%w(...)`이나 `%W(...)` 문법을 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[SHOULD]** 桁数が大きな10進法の数値リテラルは3桁毎に下線を入れて読みやすくする。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163502Z" creationid="nacyot" creationdate="20140317T163502Z">
@@ -426,6 +458,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163750Z" creationid="nacyot" creationdate="20140317T163750Z">
         <seg>- **[SHOULD]** 빈문자열은 `''`을 사용</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** 複数行の配列リテラルでは、最後の要素の後ろにも `,` を書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T164801Z" creationid="nacyot" creationdate="20140317T164801Z">
+        <seg>- **[SHOULD]** 여러줄로 된 배열 리터럴을 생성할 때는 마지막 요소 뒤에서 `,`를 입력할 것.</seg>
       </tuv>
     </tu>
     <tu>

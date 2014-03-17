@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## メソッド呼び出し</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T170045Z" creationid="nacyot" creationdate="20140317T170045Z">
+        <seg>## 메소드 호출</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## 代入式</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165633Z" creationid="nacyot" creationdate="20140317T165633Z">
@@ -310,10 +318,34 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** `if`、`unless`、および `case` で `then` や `:` を使用してはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T165942Z" creationid="nacyot" creationdate="20140317T165942Z">
+        <seg>- **[MUST]** `if`, `unless`, `case`를 사용할 때 `then`과 `:`를 사용해서는 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** `if`、`unless`、および `case` の条件式の後ろは改行すること。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165825Z" creationid="nacyot" creationdate="20140317T165825Z">
         <seg>- **[MUST]** `if`, `unless`, `case` 조건식을 사용할 때는 줄바꿈을 사용한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** `while` および `until` で `do` や `:` を使用してはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T170026Z" creationid="nacyot" creationdate="20140317T170026Z">
+        <seg>- **[MUST]** `while`, `until`문을 사용할 때 `do`나 `:`를 사용해서는 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** `while` および `until` の条件式の後ろは改行すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140317T170003Z" creationid="nacyot" creationdate="20140317T170003Z">
+        <seg>- **[MUST]** `while`과 `until` 조건식을 사용할 때는 줄바꿈을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>

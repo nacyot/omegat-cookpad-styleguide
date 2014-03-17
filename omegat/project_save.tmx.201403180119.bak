@@ -54,14 +54,6 @@
     </tu>
     <tu>
       <tuv lang="JA">
-        <seg>## 1行の文字数</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163313Z" creationid="nacyot" creationdate="20140317T163313Z">
-        <seg>## 한 줄의 글자수</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
         <seg>## ARC</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
@@ -98,14 +90,6 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
         <seg>## License</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>## Ruby バージョン</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T162442Z" creationid="nacyot" creationdate="20140317T162442Z">
-        <seg>## 루비(Ruby) 버전</seg>
       </tuv>
     </tu>
     <tu>
@@ -118,54 +102,6 @@
     </tu>
     <tu>
       <tuv lang="JA">
-        <seg>## インデント</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T162647Z" creationid="nacyot" creationdate="20140317T162647Z">
-        <seg>## 들여쓰기</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>## 数値</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163423Z" creationid="nacyot" creationdate="20140317T163423Z">
-        <seg>## 숫자</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>## 文字エンコーディングとマジックコメント</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163124Z" creationid="nacyot" creationdate="20140317T163124Z">
-        <seg>## 문자 인코딩과 매직 코멘드</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>## 文字列</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163741Z" creationid="nacyot" creationdate="20140317T163741Z">
-        <seg>## 문자열</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>## 空白</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163035Z" creationid="nacyot" creationdate="20140317T163035Z">
-        <seg>## 공백</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>## 空行</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163056Z" creationid="nacyot" creationdate="20140317T163056Z">
-        <seg>## 빈 행</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
         <seg>'buzz' : "#{n}"</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
@@ -234,166 +170,6 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
         <seg>- (void)_privateMethod1;</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[MUST]** 1レベルのインデントに2つの空白を使用する。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T162706Z" creationid="nacyot" creationdate="20140317T162706Z">
-        <seg>- **[MUST]** 1단계의 들여쓰기는 2개의 스페이스를 사용한다.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[MUST]** どんな事情があろうとも1行の文字数が128文字を越えてはならない。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163420Z" creationid="nacyot" creationdate="20140317T163420Z">
-        <seg>- **[MUST]** 무슨 일이 있더라도 한 줄은 128자 이하로 작성.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[MUST]** ファイルの末尾に空行を置いてはならない。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163106Z" creationid="nacyot" creationdate="20140317T163106Z">
-        <seg>- **[MUST]** 파일 마지막에 빈 행을 넣지 말 것.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[MUST]** マジックコメントが必要な場合は以下の形式で書くこと。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163300Z" creationid="nacyot" creationdate="20140317T163243Z">
-        <seg>- **[MUST]** 매직 코멘트를 사용해야할 때는 아래 형식을 사용.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[MUST]** 文字列内部のエスケープシーケンスが最も少なくなるよう、適切な区切り記号を選択すること。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163850Z" creationid="nacyot" creationdate="20140317T163850Z">
-        <seg>- **[MUST]** 문자열 안에서 이스케이프 시켄스를 최소화할 수 있도록 적절한 구분문자열을 선택할 것.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[MUST]** 特別な理由がない場合はスクリプトのエンコーディングは UTF-8 にすること。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163148Z" creationid="nacyot" creationdate="20140317T163148Z">
-        <seg>- **[MUST]** 특별한 이유가 없다면 인코딩은 UTF-8을 사용할 것.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[MUST]** 行末に空白を置いてはならない。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163053Z" creationid="nacyot" creationdate="20140317T163053Z">
-        <seg>- **[MUST]** 행의 맨 뒤에 공백을 넣지 말 것.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[MUST]** 長いメソッドチェインの最後のメソッド呼び出しでブロックを渡す場合、最後のメソッド呼び出しのレシーバをローカル変数として抽出し、ブロック付きメソッド呼び出しを独立した式として書くこと。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T162905Z" creationid="nacyot" creationdate="20140317T162905Z">
-        <seg>- **[MUST]** 메소드 체인이 길어질 때 마지막 메소드를 호출할 때 블록을 넘길 필요가 있다면 마지막 메소드의 리시버를 로컬 변수로 저장하고 별개의 식으로 블록을 넘겨준다.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** 16進法はアルファベットの大文字で書いても小文字で書いても良いが、1つのファイルの中では統一すること。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163615Z" creationid="nacyot" creationdate="20140317T163615Z">
-        <seg>- **[SHOULD]** 16진수의 알파벳은 대소문자 어떤 것을 사용해도 상관없으나, 하나의 파일에서는 일관성을 지킬 것.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** Ruby 2.0 のプロジェクトでは、キーワード引数、シンボルリテラル(`%i`)など、Ruby 2.0 で新しく加わった Syntax を推奨する。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T162642Z" creationid="nacyot" creationdate="20140317T162642Z">
-        <seg>- **[SHOULD]** 루비 2.0 프로젝트에서는 키워드 인스, 심볼 리터럴(`%i`)과 같이 루비 2.0에서 추가된 기능을 적극 활용한다.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** Ruby 2.0 以降は UTF-8 がデフォルトになったので、スクリプトのエンコーディングが UFT-8 の場合はマジックコメントを書かない。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163227Z" creationid="nacyot" creationdate="20140317T163227Z">
-        <seg>- **[SHOULD]** Ruby 2.0 부터 기본 인코딩이 UTF-8이므로 매직 코멘트는 사용하지 않을 것.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** Ruby 2.0.0 以前を使用している場合、分数は `Integer#quo` メソッドを使って書くこと。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163711Z" creationid="nacyot" creationdate="20140317T163711Z">
-        <seg>- **[SHOULD]** Ruby 2.0.0 이전 버전을 사용한다면 분수 표현은 `Integer#quo` 메소드를 사용.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** Ruby 2.1 以上を使用している場合、分数は `r` サフィックスを用いて書くこと。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163648Z" creationid="nacyot" creationdate="20140317T163648Z">
-        <seg>- **[SHOULD]** Ruby 2.1 이후 버전을 사용한다면 분수 표현은 `r` 접미사를 사용.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** Ruby 2.1 以上を使用している場合、複素数は `i` または `ri` サフィックスを用いて書くこと。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163735Z" creationid="nacyot" creationdate="20140317T163735Z">
-        <seg>- **[SHOULD]** Ruby 2.1 이후 버전을 사용한다면 복수소 표현은 `i`나 `ri` 접미사를 사용할 것.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** 式の途中で改行する場合は、2行目以降を1行目より1段深くインデントすること。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163025Z" creationid="nacyot" creationdate="20140317T163025Z">
-        <seg>- **[SHOULD]** 식이 여러줄에 걸쳐 이어질 때 두번째 줄 부터는 첫번째 줄보다 한 단계 들여쓰기를 더 할 것.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** 桁数が大きな10進法の数値リテラルは3桁毎に下線を入れて読みやすくする。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163502Z" creationid="nacyot" creationdate="20140317T163502Z">
-        <seg>- **[SHOULD]** 자리수가 큰 10진수 숫자 리터럴을 사용할 때는 3자리마다 밑줄을 넣어 읽기 쉽게 할 것.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** 桁数が大きな2進法および16進法の数値リテラルは4桁毎に下線を入れて読みやすくする。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163536Z" creationid="nacyot" creationdate="20140317T163536Z">
-        <seg>- **[SHOULD]** 자리수가 큰 2진수나 16진수를 사용할 때는 4자리마다 밑줄을 넣어 읽기 쉽게 할 것.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** 特殊な事情が無い限りは1行の文字数を80文字以内に納めること (全角文字は2文字と数えること)。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163358Z" creationid="nacyot" creationdate="20140317T163358Z">
-        <seg>- **[SHOULD]** 특별한 이유가 없다면 한 줄은 80자 이하로 작성(전각 문자는 2글자로 계산).</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** 理由が無い限り引数なしの `String.new` を使ってはならない。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163808Z" creationid="nacyot" creationdate="20140317T163808Z">
-        <seg>- **[SHOULD]** 특별한 이유가 없다면 `String.new`으로 문자열을 생성하지 않는다.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- **[SHOULD]** 空文字列は `''` と書くこと。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163750Z" creationid="nacyot" creationdate="20140317T163750Z">
-        <seg>- **[SHOULD]** 빈문자열은 `''`을 사용</seg>
       </tuv>
     </tu>
     <tu>
@@ -602,46 +378,6 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
         <seg>- __"SHOULD"__ means recommended.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- 例: `0xABCD_1234`</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163538Z" creationid="nacyot" creationdate="20140317T163538Z">
-        <seg>- 예: `0xABCD_1234`</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- 例: `1 + 2i #=&gt; (1+2i)`</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163738Z" creationid="nacyot" creationdate="20140317T163738Z">
-        <seg>- 예: `1 + 2i #=&gt; (1+2i)`</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- 例: `1.quo(2) #=&gt; (1/2)`</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163718Z" creationid="nacyot" creationdate="20140317T163713Z">
-        <seg>- 예: `1.quo(2) #=&gt; (1/2)`</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- 例: `1/2r #=&gt; (1/2)`</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163651Z" creationid="nacyot" creationdate="20140317T163651Z">
-        <seg>- 예: `1/2r #=&gt; (1/2)`</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>- 例: `1_000_000.001_023`</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163505Z" creationid="nacyot" creationdate="20140317T163505Z">
-        <seg>- 예: `1_000_000.001_023`</seg>
       </tuv>
     </tu>
     <tu>
@@ -2434,14 +2170,6 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161912Z" creationid="nacyot" creationdate="20140317T161912Z">
         <seg>이 문서는 주식회사 쿡패드(Cookpad)의 루비 코드 스타일 표준을 정의한 문서입니다.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="JA">
-        <seg>水平タブを使用してはならない。</seg>
-      </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T162720Z" creationid="nacyot" creationdate="20140317T162720Z">
-        <seg>탭을 사용하지 말 것.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->

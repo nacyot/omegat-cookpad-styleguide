@@ -622,6 +622,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** 代入の後ろに配列リテラルを複数行で書く場合は、`{` の後で改行し、要素行のインデントを1レベル下げ、`}` は独立した行に置いて `{` を書いた行の行頭にインデントを揃える。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151640Z" creationid="nacyot" creationdate="20140318T151640Z">
+        <seg>- **[MUST]** 대입문 우변에 해시 리터럴을 여러 줄에 걸쳐서 적을 때는 `{` 뒤에서 줄바꿈하고 각 요소들은 한단계 들여쓰기 해서 적는다. `}`는 별도의 줄에 적고 `{`을 적은 줄의 앞 부분과 들여쓰기를 맞춘다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** 代入記号の両側に空白を入れること。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165656Z" creationid="nacyot" creationdate="20140317T165656Z">
@@ -766,6 +774,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** 複合代入はリテラルまたは引数なしのメソッド呼び出しの結果を代入する場合、および2つの変数または属性の値を交換する場合のみ使ってよい。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151850Z" creationid="nacyot" creationdate="20140318T151850Z">
+        <seg>- **[MUST]** </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** 配列リテラルを複数行で書く場合、`[`と一つ目の要素の間に1つの空白を入れて、要素の先頭を揃えること。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T164632Z" creationid="nacyot" creationdate="20140317T164632Z">
@@ -786,6 +802,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T232943Z" creationid="nacyot" creationdate="20140317T232943Z">
         <seg>- **[SHOULD]** (Ruby 1.9+) Unicode 문자를 이스케이스 시켄스로 입력할 때는 `"\xE3\x8C\xB3"` 방식이 아니라 `"\u{3333}"`와 같이 `\u`를 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** (Ruby 1.9+) ハッシュリテラルのキーがすべて Symbol リテラルのときは `{ key: value }` の記法を使うこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151812Z" creationid="nacyot" creationdate="20140318T151812Z">
+        <seg>- **[SHOULD]** (Ruby 1.9+) 해시 리터컬의 키가 전부 Symbol 리터럴인 경우엔 `{ key: value }` 방식을 사용할 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -882,6 +906,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T150452Z" creationid="nacyot" creationdate="20140318T150452Z">
         <seg>- **[SHOULD]** 하나의 변수를 여러 가지 용도로 사용해서는 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** ハッシュのキーを Symbol にして良い場合は、文字列よりも高速に lookup できるので積極的に Symbol を使うこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151747Z" creationid="nacyot" creationdate="20140318T151747Z">
+        <seg>- **[SHOULD]** 문자열보다 검색 속도가 빠르므로, 해시 키로 Symbol을 사용할 수 있는 경우에는 사용할 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1776,7 +1808,7 @@
       <tuv lang="JA">
         <seg>&lt;a name="operations"&gt;&lt;/a&gt;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T161426Z" creationid="nacyot" creationdate="20140317T161426Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151828Z" creationid="nacyot" creationdate="20140317T161426Z">
         <seg>&lt;a name="operations"&gt;&lt;/a&gt;</seg>
       </tuv>
     </tu>
@@ -3194,6 +3226,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T151004Z" creationid="nacyot" creationdate="20140318T151004Z">
         <seg>여기서 루프란 `while`, `until`, `for`와 `each`와 같이 블록을 사용하는 반복자 표현을 의미한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>このとき `:` の後ろに空白を入れること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151822Z" creationid="nacyot" creationdate="20140318T151822Z">
+        <seg>이 때 `:` 뒤에 공백을 넣을 것.</seg>
       </tuv>
     </tu>
     <tu>

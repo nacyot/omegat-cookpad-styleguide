@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>)`) を使用して可読性を向上させること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151132Z" creationid="nacyot" creationdate="20140318T151132Z">
+        <seg>)`)을 사용해 가독성을 높일 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- (void)_privateMethod1;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
@@ -494,6 +502,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** ハッシュリテラルを単独で複数行で書く場合は、`{` の後に第一要素を書き、第二要素以降のインデントを1レベル下げ、`}` は独立した行に置いて `{` を書いた行の行頭にインデントを揃える。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151522Z" creationid="nacyot" creationdate="20140318T151522Z">
+        <seg>- **[MUST]** 해시만 독립적으로 여러줄에 걸쳐서 적을 때는 `{` 다음에 바로 첫번째 요소를 적고, 두번째 요소부터는 한 단계 들여쓰기 한다. `}`는 별도의 행에 적으며, `{`를 입력한 행의 앞부분과 들여쓰기를 맞춘다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** ファイルの末尾に空行を置いてはならない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163106Z" creationid="nacyot" creationdate="20140317T163106Z">
@@ -594,6 +610,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T145549Z" creationid="nacyot" creationdate="20140318T145549Z">
         <seg>- **[MUST]** 중괄호를 사용하는 블록은 `{` 앞에 공백을 하나 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 代入の後ろに配列リテラルを複数行で書く場合は、`[` の後ろで改行し、要素行のインデントを1レベル下げ、`]` は独立した行に置いて `[` を書いた行の行頭にインデントを揃える。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151301Z" creationid="nacyot" creationdate="20140318T151301Z">
+        <seg>- **[MUST]** 대입문 우변에 배열 리터럴을 여러 줄에 걸쳐서 적을 때는 `[` 뒤에서 줄바꿈하고 요소가 들어가는 행을 한단계 들여쓰기 하고 `]`는 별도의 줄에 적는다. 이 때는 `]`는 `[`이 있는 줄의 첫 부분과 들여쓰기를 맞춘다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1026,6 +1050,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T164801Z" creationid="nacyot" creationdate="20140317T164801Z">
         <seg>- **[SHOULD]** 여러줄로 된 배열 리터럴을 생성할 때는 마지막 요소 뒤에서 `,`를 입력할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** 複雑な正規表現を記述する場合は、`x` オプションを利用し、改行、空白、コメント (`(?# ...</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151125Z" creationid="nacyot" creationdate="20140318T151125Z">
+        <seg>- **[SHOULD]** 복잡한 정규표현식을 사용할 때는 `x` 옵션을 사용해 줄바꿈, 공백, 주석 (`(?# ...</seg>
       </tuv>
     </tu>
     <tu>
@@ -2282,6 +2314,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T164430Z" creationid="nacyot" creationdate="20140317T161425Z">
         <seg>캡쳐되지 않는 `(?: ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>`String#&lt;&lt;` または `String#concat` を使用すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151052Z" creationid="nacyot" creationdate="20140318T151052Z">
+        <seg>`String#&lt;&lt;` 또는 `String#concat`를 사용할 것.</seg>
       </tuv>
     </tu>
     <tu>

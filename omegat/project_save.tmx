@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## BEGIN と END</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145624Z" creationid="nacyot" creationdate="20140318T145624Z">
+        <seg>## BEGIN과 END</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## Enum</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
@@ -134,10 +142,26 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## メソッドの定義</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150012Z" creationid="nacyot" creationdate="20140318T150012Z">
+        <seg>## 메소드 정의</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## メソッド呼び出し</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T170045Z" creationid="nacyot" creationdate="20140317T170045Z">
         <seg>## 메소드 호출</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>## モジュールとクラスの定義</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145644Z" creationid="nacyot" creationdate="20140318T145644Z">
+        <seg>## 모듈과 클래스 정의</seg>
       </tuv>
     </tu>
     <tu>
@@ -318,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** `BEGIN` ブロックと `END` ブロックは使ってはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145636Z" creationid="nacyot" creationdate="20140318T145636Z">
+        <seg>- **[MUST]** `BEGIN` 블록과 `END` 블록은 사용하지 말 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** `and`、`or`、および `not` は使用しないこと。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165525Z" creationid="nacyot" creationdate="20140317T165525Z">
@@ -382,6 +414,22 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** アクセサを定義する場合は `attr_accessor`、`attr_reader`、`attr_writer` を使用し、`attr` は使用しない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145756Z" creationid="nacyot" creationdate="20140318T145756Z">
+        <seg>- **[MUST]** `attr`을 사용하지 말고 `attr_accessor`, `attr_reader`, `attr_writer`을 대신 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** クラスメソッドの定義では、無闇にインデントレベルを深くしないために `self.` を使用すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145835Z" creationid="nacyot" creationdate="20140318T145835Z">
+        <seg>- **[MUST]** 클래스 메소드를 정의할 때는 쓸데없는 들여쓰기를 사용하지 않도록 `self.` 문법을 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** ハッシュリテラルは、Symbol を key にするときは HashRocket (Ruby 1.8 までで使われていた `=&gt;` の記法`{ :foo =&gt; 42 }`)を使わない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165200Z" creationid="nacyot" creationdate="20140317T165200Z">
@@ -438,6 +486,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** メソッドのエイリアスを定義する場合は表記揺れを防止するため `alias` ではなく `alias_method` を使用する。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145729Z" creationid="nacyot" creationdate="20140318T145729Z">
+        <seg>- **[MUST]** 메소드에 별칠을 붙일 때는 `alias`를 사용하지 말고 `alias_method`를 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** メソッド名とメソッド呼び出しの括弧の間に空白を入れてはならない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T144900Z" creationid="nacyot" creationdate="20140318T144900Z">
@@ -450,6 +506,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T144429Z" creationid="nacyot" creationdate="20140318T144429Z">
         <seg>- **[MUST]** 메소드 호출 시 괄호는 아래의 생략해도 되는 경우를 제외하고는 생략해서는 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 中括弧によるブロックでは、`{` の前に空白を1つ入れること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145549Z" creationid="nacyot" creationdate="20140318T145549Z">
+        <seg>- **[MUST]** 중괄호를 사용하는 블록은 `{` 앞에 공백을 하나 사용할 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2946,6 +3010,22 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T232856Z" creationid="nacyot" creationdate="20140317T232856Z">
         <seg>예) `"#{obj.to_s}"`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ブロック本体のインデントは1レベル下げ、`end` のインデントはメソッド呼び出しの1行目にあわせること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145528Z" creationid="nacyot" creationdate="20140318T145528Z">
+        <seg>블록 본문은 한 단계 들여쓰기 하며 `end`의 들여쓰기는 메소드를 호출하는 첫 행과 맞출 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>但し、privateなものとpublicなものを同時に定義したい場合等は、`class &lt;&lt; self`を利用しても構わない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145903Z" creationid="nacyot" creationdate="20140318T145903Z">
+        <seg>단 private 메소드와 public 메소드를 모두 정의해야할 때는 `class &lt;&lt; self` 를 사용해도 무방.</seg>
       </tuv>
     </tu>
     <tu>

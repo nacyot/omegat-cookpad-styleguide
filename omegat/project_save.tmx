@@ -2782,6 +2782,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>同じ行に本体コードを続けて書いてはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T142458Z" creationid="nacyot" creationdate="20140318T142458Z">
+        <seg>조건식에 대한 본문을 같은 줄에 적지 않을 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>括弧の種類はどれでも良い。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T233003Z" creationid="nacyot" creationdate="20140317T232711Z">

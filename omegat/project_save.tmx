@@ -630,6 +630,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[SHOULD]** 条件式と本体コードが短い場合は修飾子記法を使用すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T143901Z" creationid="nacyot" creationdate="20140318T143815Z">
+        <seg>- **[SHOULD]** 조건식과 본문 코드가 짧으면 변경자(if나 unless 조건식을 본문 뒤에 넣는 방법)를 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[SHOULD]** 桁数が大きな10進法の数値リテラルは3桁毎に下線を入れて読みやすくする。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163502Z" creationid="nacyot" creationdate="20140317T163502Z">

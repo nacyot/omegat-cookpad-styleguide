@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** `do`/`end` によるブロックでは、`do`の前後に空白を1つ入れ、ブロックパラメータの後で改行し、`end` は独立した行に書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145451Z" creationid="nacyot" creationdate="20140318T145451Z">
+        <seg>- **[MUST]** `do`/`end`를 사용할 때는 `do 앞뒤로 공백을 넣으며 블록 인자 되에서 줄바꿈을 넣고 `end`는 독립된 행으로 적을 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** `if`、`unless`、および `case` で `then` や `:` を使用してはならない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165942Z" creationid="nacyot" creationdate="20140317T165942Z">
@@ -400,8 +408,24 @@
       <tuv lang="JA">
         <seg>- **[MUST]** ブロック付きメソッド呼び出しでは、`do`/`end` 記法でブロックを書くこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T144956Z" creationid="nacyot" creationdate="20140318T144956Z">
-        <seg>- **[MUST]** 블록을 사용한 메소드를 호출할 때는 `do`/`end` 방식으로 블록을 기술할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145150Z" creationid="nacyot" creationdate="20140318T144956Z">
+        <seg>- **[MUST]** 리턴값이 의미를 가지지 않는 블록을 사용한 메소드를 호출할 때는 `do`/`end` 방식으로 블록을 기술할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** ブロック付きメソッド呼び出しの戻り値に対して処理を行う場合は、ブロックを中括弧で書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145312Z" creationid="nacyot" creationdate="20140318T145312Z">
+        <seg>- **[MUST]** 리턴값이 의미를 가지는 블록을 사용한 메소드를 호출할 때는 중괄호를 사용해 블록을 기술할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** ブロック付きメソッド呼び出しを1行で書く場合は、ブロックを中括弧で書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145403Z" creationid="nacyot" creationdate="20140318T145403Z">
+        <seg>- **[MUST]** 블록을 사용하는 메소드 호출을 한 줄로 기술할 때는 중괄호를 사용할 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2090,6 +2114,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
         <seg>array = [ :foo,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>blockの副作用が目的</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T145159Z" creationid="nacyot" creationdate="20140318T145159Z">
+        <seg>부작용을 목적으로 하는 블록</seg>
       </tuv>
     </tu>
     <tu>

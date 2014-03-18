@@ -566,6 +566,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[SHOULD]** `unless` および `until` の条件式に複数の項を `||` で結合した論理式 (加法標準形) を書いてはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T142919Z" creationid="nacyot" creationdate="20140318T142919Z">
+        <seg>- **[SHOULD]** `unless`와 `until` 조건식에는 `||`을 사용한 논리식을 사용하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[SHOULD]** `unless` に対して `else` を使ってはならない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165749Z" creationid="nacyot" creationdate="20140317T165749Z">

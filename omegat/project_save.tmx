@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## 変数</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150327Z" creationid="nacyot" creationdate="20140318T150327Z">
+        <seg>## 변수</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## 数値</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163423Z" creationid="nacyot" creationdate="20140317T163423Z">
@@ -430,6 +438,38 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** クラス変数 (`@@foo`) を使用してはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150353Z" creationid="nacyot" creationdate="20140318T150353Z">
+        <seg>- **[MUST]** 클래스 변수(`@@foo`)를 사용하지 말 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** グローバル変数 (`$foo`) を新たに導入してはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150344Z" creationid="nacyot" creationdate="20140318T150344Z">
+        <seg>- **[MUST]** 글로별 변수를 (`$foo`) 임의로 정의하지 말 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** ドキュメンテーションコメントとメソッド定義の間に空行を書いてはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150121Z" creationid="nacyot" creationdate="20140318T150109Z">
+        <seg>- **[MUST]** 문서화와 메소드 정의 사이를 띄우지 말 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** ドキュメンテーションコメントは[TomDoc](http://tomdoc.org/)のフォーマットに従うこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150048Z" creationid="nacyot" creationdate="20140318T150048Z">
+        <seg>- **[MUST]** 문서화는 [TomDoc](http://tomdoc.org/) 포맷을 따를 것</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** ハッシュリテラルは、Symbol を key にするときは HashRocket (Ruby 1.8 までで使われていた `=&gt;` の記法`{ :foo =&gt; 42 }`)を使わない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165200Z" creationid="nacyot" creationdate="20140317T165200Z">
@@ -486,6 +526,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** メソッドと引数リストの括弧の間に空白を置いてはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150251Z" creationid="nacyot" creationdate="20140318T150247Z">
+        <seg>- **[MUST]** 메소드와 인수 리스트의 고라호 사이에는 공백을 넣지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** メソッドのエイリアスを定義する場合は表記揺れを防止するため `alias` ではなく `alias_method` を使用する。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T145729Z" creationid="nacyot" creationdate="20140318T145729Z">
@@ -510,6 +558,30 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** メソッド定義において、引数リストの括弧は省略してはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150210Z" creationid="nacyot" creationdate="20140318T150210Z">
+        <seg>- **[MUST]** 메소드를 정의할 때 인수 리스트의 괄호는 생략해서는 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 一つのクラスに複数の異なる責務を持たせないこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150309Z" creationid="nacyot" creationdate="20140318T150032Z">
+        <seg>- **[MUST]** 하나의 클래스의 여러가지 책임을 지게하지 말 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 一つのメソッドに複数の異なる責務を持たせないこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150312Z" creationid="nacyot" creationdate="20140318T150304Z">
+        <seg>- **[MUST]** 하나의 메소드에 여러가지 책임을 지게하지 말 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** 中括弧によるブロックでは、`{` の前に空白を1つ入れること。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T145549Z" creationid="nacyot" creationdate="20140318T145549Z">
@@ -530,6 +602,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T144127Z" creationid="nacyot" creationdate="20140318T144127Z">
         <seg>- **[MUST]** 대입문의 우변에서 제어구조를 사용할 때는 본문 코드를 2단계 들여쓰고 마지막 `end`는 본문보다 한단계 덜 들여쓴다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 変数名は英単語を省略せずに使って名付けること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150414Z" creationid="nacyot" creationdate="20140318T150414Z">
+        <seg>- **[MUST]** 변수명을 작성할 때는 영어 단어를 생략형을 사용하지 말 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -562,6 +642,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T144446Z" creationid="nacyot" creationdate="20140318T144442Z">
         <seg>- **[MUST]** 인수가 없는 메소드를 호출할 때는 괄호를 생략할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 引数を破壊してはいけない</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150322Z" creationid="nacyot" creationdate="20140318T150322Z">
+        <seg>- **[MUST]** 인수를 삭제하지 말 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -734,6 +822,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[SHOULD]** ひとつの変数を異なる役割のために使い回してはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150452Z" creationid="nacyot" creationdate="20140318T150452Z">
+        <seg>- **[SHOULD]** 하나의 변수를 여러 가지 용도로 사용해서는 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[SHOULD]** ハッシュリテラルの key が symbol だが、`.`, `-`等を含む場合、HashRocket に統一するのが望ましい。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165304Z" creationid="nacyot" creationdate="20140317T165252Z">
@@ -746,6 +842,22 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T144927Z" creationid="nacyot" creationdate="20140318T144912Z">
         <seg>- **[SHOULD]** 인자 마지막에 해시 리터럴을 사용할 때는 해시 리터럴 중괄호를 생략한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** モジュールやクラスが外部に公開するメソッドとアクセサに対してドキュメンテーションコメントを Markdown 形式で書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150151Z" creationid="nacyot" creationdate="20140318T150151Z">
+        <seg>- **[SHOULD]** 모듈이나 클래스 외부에 공개되는 메소드와 액세서에 대한 문서 주석은 Markdown을 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** ローカル変数のスコープ (有効範囲) を可能な限り小さくすること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150535Z" creationid="nacyot" creationdate="20140318T150535Z">
+        <seg>- **[SHOULD]** 로컬 변수의 스코프(유효범위)를 가능한한 작게 만든다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2974,6 +3086,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>そうしたくなる場合は、メソッドを複数のメソッドに分割できる。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150518Z" creationid="nacyot" creationdate="20140318T150518Z">
+        <seg>대부분 이런 경우엔 메소드를 분리할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>ただし `**` の両側には空白は入れないこと。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165503Z" creationid="nacyot" creationdate="20140317T165503Z">
@@ -2986,6 +3106,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T232946Z" creationid="nacyot" creationdate="20140317T232946Z">
         <seg>단 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ただし、引数なしメソッドを定義する場合は括弧を省略すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150229Z" creationid="nacyot" creationdate="20140318T150229Z">
+        <seg>인수가 없는 메소드를 정의할 때는 괄호를 사용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3014,10 +3142,26 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>また、慣習的な名前 (ループカウンタとしての `i` や `j` など) は許可する。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150438Z" creationid="nacyot" creationdate="20140318T150438Z">
+        <seg>관습적인 `i`나 `j`와 같은 변수는 사용해도 좋다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>ブロック本体のインデントは1レベル下げ、`end` のインデントはメソッド呼び出しの1行目にあわせること。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T145528Z" creationid="nacyot" creationdate="20140318T145528Z">
         <seg>블록 본문은 한 단계 들여쓰기 하며 `end`의 들여쓰기는 메소드를 호출하는 첫 행과 맞출 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>代わりに `class_attribute` を使用すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150356Z" creationid="nacyot" creationdate="20140318T150356Z">
+        <seg>대신 `class_attribute`를 사용.</seg>
       </tuv>
     </tu>
     <tu>

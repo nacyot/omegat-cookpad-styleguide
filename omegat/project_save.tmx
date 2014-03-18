@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>## その他 (分類の仕方が難しいやつ)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150556Z" creationid="nacyot" creationdate="20140318T150556Z">
+        <seg>## 이 외(분류하기 어려운 규칙)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>## はじめに</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161851Z" creationid="nacyot" creationdate="20140317T161851Z">
@@ -654,6 +662,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** 文字列の破壊的追記を `+=` で行ってはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151048Z" creationid="nacyot" creationdate="20140318T151048Z">
+        <seg>- **[MUST]** 문자열에 파괴적인 연결 연산자 `+=`를 사용하지 말 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** 文字列内部のエスケープシーケンスが最も少なくなるよう、適切な区切り記号を選択すること。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163850Z" creationid="nacyot" creationdate="20140317T163850Z">
@@ -690,6 +706,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163148Z" creationid="nacyot" creationdate="20140317T163148Z">
         <seg>- **[MUST]** 특별한 이유가 없다면 인코딩은 UTF-8을 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 破壊的メソッドを使用する際は、その副作用を最小限の範囲に留めること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150616Z" creationid="nacyot" creationdate="20140318T150616Z">
+        <seg>- **[MUST]** 파괴적인 메소드를 사용할 때는 그 영향 범위를 최소한으로 만든다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -790,6 +814,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[SHOULD]** `%` 記法で文字列リテラルを書く場合は、括弧を区切り記号に使用すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150853Z" creationid="nacyot" creationdate="20140318T150838Z">
+        <seg>- **[SHOULD]** `%` 문법으로 문자열 리터럴을 사용할 때는 괄호를 구분 문자열로 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[SHOULD]** `if !condition` の代わりに `unless condition` と書くこと。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165728Z" creationid="nacyot" creationdate="20140317T165723Z">
@@ -854,6 +886,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[SHOULD]** ループ内で文字列リテラルを書いてはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150936Z" creationid="nacyot" creationdate="20140318T150936Z">
+        <seg>- **[SHOULD]** 루프에서 문자열 리터럴을 사용하지 말 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[SHOULD]** ローカル変数のスコープ (有効範囲) を可能な限り小さくすること。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T150535Z" creationid="nacyot" creationdate="20140318T150535Z">
@@ -882,6 +922,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T164418Z" creationid="nacyot" creationdate="20140317T164320Z">
         <seg>- **[SHOULD]** 재참조 하지 않는 캡쳐 그룹은 사용하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** 文字列リテラルに対して `String#+` を用いて他の文字列を連結してはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151023Z" creationid="nacyot" creationdate="20140318T151023Z">
+        <seg>- **[SHOULD]** 문자열을 리터럴에 대해서 `String#+` 메소드를 사용해서 문자열을 연결하지 말 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2014,6 +2062,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>Ruby プログラマとしての素養をある程度備えている者なら誰もが読みやすいコードになるよう、可読性と一貫性を重視して規準を定めている。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150708Z" creationid="nacyot" creationdate="20140318T150708Z">
+        <seg>Ruby 프로그래머로서 소양을 갖춘 살마이라면 누구라도 읽기 쉬운 코드가 되도록 가독성과 일관성에 중심을 두고 정한 규칙입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>TypeDone = 1,</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T161425Z" creationid="nacyot" creationdate="20140317T161425Z">
@@ -3086,6 +3142,22 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>「bad」として例示されている記法の中には、特に悪いと思えないようなものも存在しているが、その理由はコードの一貫性を保つためである。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150802Z" creationid="nacyot" creationdate="20140318T150802Z">
+        <seg>'bad'라고 표기된 예제 중에는 사용해도 무방한 경우도 있습니다만 코드의 일관성을 중시한 구칙입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ここでループとは `while`、`until`、`for`、およびイテレータ (`each` などのブロックを何度も呼び出すブロック付きメソッド呼び出しのブロック内) である。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151004Z" creationid="nacyot" creationdate="20140318T151004Z">
+        <seg>여기서 루프란 `while`, `until`, `for`와 `each`와 같이 블록을 사용하는 반복자 표현을 의미한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>そうしたくなる場合は、メソッドを複数のメソッドに分割できる。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T150518Z" creationid="nacyot" creationdate="20140318T150518Z">
@@ -3104,8 +3176,8 @@
       <tuv lang="JA">
         <seg>ただし、Ruby 1.8 系でも動作する必要があるスクリプトではこの限りではない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T232946Z" creationid="nacyot" creationdate="20140317T232946Z">
-        <seg>단 </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150926Z" creationid="nacyot" creationdate="20140317T232946Z">
+        <seg>단 루비 1.8 버전대에서도 돌아가야하는 스크립트라면 적용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3158,6 +3230,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>ローカル変数が存在しないメソッドは良いメソッドである。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T150547Z" creationid="nacyot" creationdate="20140318T150547Z">
+        <seg>로컬 변수가 존재하지 않는 메소드가 좋은 메소드이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>代わりに `class_attribute` を使用すること。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T150356Z" creationid="nacyot" creationdate="20140318T150356Z">
@@ -3178,6 +3258,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T142458Z" creationid="nacyot" creationdate="20140318T142458Z">
         <seg>조건식에 대한 본문을 같은 줄에 적지 않을 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>式展開を使用すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T151029Z" creationid="nacyot" creationdate="20140318T151029Z">
+        <seg>문자열 보간법을 사용할 것.</seg>
       </tuv>
     </tu>
     <tu>

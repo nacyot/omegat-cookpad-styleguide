@@ -350,6 +350,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** return, next, break が意味のある値を返さない場合は、後ろに式を書いてはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T144251Z" creationid="nacyot" creationdate="20140318T144251Z">
+        <seg>- **[MUST]** return, next, break 다음에 의미없는 식을 기술하지 말 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** どんな事情があろうとも1行の文字数が128文字を越えてはならない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163420Z" creationid="nacyot" creationdate="20140317T163420Z">
@@ -390,10 +398,26 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** メソッド呼び出しの括弧は、省略を許可された場合を除いて、省略してはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T144429Z" creationid="nacyot" creationdate="20140318T144429Z">
+        <seg>- **[MUST]** 메소드 호출 시 괄호는 아래의 생략해도 되는 경우를 제외하고는 생략해서는 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** 代入記号の両側に空白を入れること。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165656Z" creationid="nacyot" creationdate="20140317T165656Z">
         <seg>- **[MUST]** 대입 기호(=) 양쪽에 공백을 넣을 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 制御構造が代入の右辺に来る場合は、本体コードのインデントを2レベル下げ、制御構造の終わりの `end` 行のインデントを本体コードより1レベル戻すこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T144127Z" creationid="nacyot" creationdate="20140318T144127Z">
+        <seg>- **[MUST]** 대입문의 우변에서 제어구조를 사용할 때는 본문 코드를 2단계 들여쓰고 마지막 `end`는 본문보다 한단계 덜 들여쓴다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -418,6 +442,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T164829Z" creationid="nacyot" creationdate="20140317T164821Z">
         <seg>- **[MUST]** 인수 없이 `Array.new` 메소드를 사용하지 않을 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 引数なしのメソッド呼び出しは括弧を省略すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T144446Z" creationid="nacyot" creationdate="20140318T144442Z">
+        <seg>- **[MUST]** 인수가 없는 메소드를 호출할 때는 괄호를 생략할 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -626,6 +658,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T164738Z" creationid="nacyot" creationdate="20140317T164738Z">
         <seg>- **[SHOULD]** 문자열로 구성된 배열을 만들 때는 `%w(...)`이나 `%W(...)` 문법을 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** 条件式が長く複数行になってしまう場合は、その条件式を述語メソッドとして抽出し、適切な名前を付けて使用すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140318T144024Z" creationid="nacyot" creationdate="20140318T144024Z">
+        <seg>- **[SHOULD]** 조건식을 여러줄에 적어야할 만큼 길 때는 조건식을 별도의 메소드로 추출하고 적절한 이름을 붙여 사용할 것.</seg>
       </tuv>
     </tu>
     <tu>

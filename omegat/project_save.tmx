@@ -406,6 +406,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** `private` や `protected` や `public` を引数なしで使用する場合、インデントレベルはメソッド定義と同じレベルとし、前後に1行ずつ空白を入れること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T162244Z" creationid="nacyot" creationdate="20140321T162209Z">
+        <seg>- **[MUST]** `private`나 `protected`나 `public`을 인수 없이 사용할 때는 들여쓰기는 메소드 정의와 같도록 하고 앞뒤로 한 줄을 띄워준다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** `while` および `until` で `do` や `:` を使用してはならない。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T170026Z" creationid="nacyot" creationdate="20140317T170026Z">
@@ -594,6 +602,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T150210Z" creationid="nacyot" creationdate="20140318T150210Z">
         <seg>- **[MUST]** 메소드를 정의할 때 인수 리스트의 괄호는 생략해서는 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** メソッド定義の後で、そのメソッドの可視性を変更するために `private` や `protected` や `public` を引数付きで呼び出す場合は、メソッド定義とこれらのメソッド呼び出しの間に空行を入れてはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T162139Z" creationid="nacyot" creationdate="20140321T162139Z">
+        <seg>- **[MUST]** 메소드를 정의하고 그 메소드의 가시성을 변경할 때는 `private`나 `protected`나 `public`를 인수와 함께 호출할 때는 메소드 정의와 이러한 메소드들의 호출 사이에 빈 줄이 있어서는 안 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -946,6 +962,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T144927Z" creationid="nacyot" creationdate="20140318T144912Z">
         <seg>- **[SHOULD]** 인자 마지막에 해시 리터럴을 사용할 때는 해시 리터럴 중괄호를 생략한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[SHOULD]** メソッドの本体コードにコメントを書かなければ理解できないようなコードを書いてはならない。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T162316Z" creationid="nacyot" creationdate="20140321T162316Z">
+        <seg>- **[SHOULD]** 메소드 본문에 주석을 써야만 이해가 되는 코드를 작성해서는 안 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1366,6 +1390,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- ただし、数式に対する補足や出展などはコード本体中にコメントとして書いても良い。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T162402Z" creationid="nacyot" creationdate="20140321T162402Z">
+        <seg>- 단 수식에 대한 보충이나 출처는 본문에 주석을 남겨도 좋다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- コントローラのアクションの内部で redirect_to や render などの継続処理を宣言するメソッドを呼び出す場合は、return や next の後ろにそれらのメソッド呼び出しを記述してよい。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140321T161617Z" creationid="nacyot" creationdate="20140321T161617Z">
@@ -1378,6 +1410,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140321T161707Z" creationid="nacyot" creationdate="20140321T161707Z">
         <seg>메소드 호출 안에서 메소드를 호출하는 겨우에 다른 규칙에서 금지하고 있는 경우를 제외하면 가장 바깥의 메소드 호출 괄호를 생략해도된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- メソッド本体内にコメントを書くよりも、別のメソッドに分けて適切な名前を付ける方が可読性が向上する。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T162343Z" creationid="nacyot" creationdate="20140321T162343Z">
+        <seg>- 메소드 본문에 주석을 남기기보단 별도의 메소드로 추출해서 이름을 붙이는 게 가독성을 향상시킨다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3298,6 +3338,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T150926Z" creationid="nacyot" creationdate="20140317T232946Z">
         <seg>단 루비 1.8 버전대에서도 돌아가야하는 스크립트라면 적용하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>ただし、変数名が長くなってしまう場合は、単語の頭文字を除く母音を削除したり、一般的な略語を選択するなどの方法で短縮化してよい。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T162443Z" creationid="nacyot" creationdate="20140321T162443Z">
+        <seg>단 변수명이 너무 길어질 때는 단어의 첫문자를 제외한 모음을 생략하거나 일반적인 약어를 사용해도 좋다.</seg>
       </tuv>
     </tu>
     <tu>

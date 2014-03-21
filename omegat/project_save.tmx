@@ -736,8 +736,8 @@
       <tuv lang="JA">
         <seg>- **[MUST]** 文字列内部のエスケープシーケンスが最も少なくなるよう、適切な区切り記号を選択すること。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163850Z" creationid="nacyot" creationdate="20140317T163850Z">
-        <seg>- **[MUST]** 문자열 안에서 이스케이프 시켄스를 최소화할 수 있도록 적절한 구분문자열을 선택할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164423Z" creationid="nacyot" creationdate="20140317T163850Z">
+        <seg>- **[MUST]** 문자열 안에서 이스케이프 시켄스가 최소화될 수 있도록 적절한 구분문자열을 선택한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -872,32 +872,32 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** Ruby 2.0.0 以前を使用している場合、分数は `Integer#quo` メソッドを使って書くこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163711Z" creationid="nacyot" creationdate="20140317T163711Z">
-        <seg>- **[SHOULD]** Ruby 2.0.0 이전 버전을 사용한다면 분수 표현은 `Integer#quo` 메소드를 사용.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164353Z" creationid="nacyot" creationdate="20140317T163711Z">
+        <seg>- **[SHOULD]** Ruby 2.0.0 이전 버전을 사용한다면 분수 표현은 `Integer#quo` 메소드를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>- **[SHOULD]** Ruby 2.1 以上を使用している場合、分数は `r` サフィックスを用いて書くこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163648Z" creationid="nacyot" creationdate="20140317T163648Z">
-        <seg>- **[SHOULD]** Ruby 2.1 이후 버전을 사용한다면 분수 표현은 `r` 접미사를 사용.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164346Z" creationid="nacyot" creationdate="20140317T163648Z">
+        <seg>- **[SHOULD]** 루비 2.1 이후 버전을 사용한다면 분수 표현은 `r` 접미사를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>- **[SHOULD]** Ruby 2.1 以上を使用している場合、複素数は `i` または `ri` サフィックスを用いて書くこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163735Z" creationid="nacyot" creationdate="20140317T163735Z">
-        <seg>- **[SHOULD]** Ruby 2.1 이후 버전을 사용한다면 복수소 표현은 `i`나 `ri` 접미사를 사용할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164359Z" creationid="nacyot" creationdate="20140317T163735Z">
+        <seg>- **[SHOULD]** Ruby 2.1 이후 버전을 사용한다면 복수소 표현은 `i`나 `ri` 접미사를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>- **[SHOULD]** `%` 記法で文字列リテラルを書く場合は、括弧を区切り記号に使用すること。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T150853Z" creationid="nacyot" creationdate="20140318T150838Z">
-        <seg>- **[SHOULD]** `%` 문법으로 문자열 리터럴을 사용할 때는 괄호를 구분 문자열로 사용할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164428Z" creationid="nacyot" creationdate="20140318T150838Z">
+        <seg>- **[SHOULD]** `%` 문법으로 문자열 리터럴을 사용할 때는 괄호를 구분 문자열로 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1096,16 +1096,16 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** 理由が無い限り引数なしの `String.new` を使ってはならない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163808Z" creationid="nacyot" creationdate="20140317T163808Z">
-        <seg>- **[SHOULD]** 특별한 이유가 없다면 `String.new`으로 문자열을 생성하지 않는다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164411Z" creationid="nacyot" creationdate="20140317T163808Z">
+        <seg>- **[SHOULD]** 특별한 이유가 없다면 `String.new` 메소드로 문자열을 생성하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>- **[SHOULD]** 空文字列は `''` と書くこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163750Z" creationid="nacyot" creationdate="20140317T163750Z">
-        <seg>- **[SHOULD]** 빈문자열은 `''`을 사용</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164403Z" creationid="nacyot" creationdate="20140317T163750Z">
+        <seg>- **[SHOULD]** 빈문자열은 `''`을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3384,8 +3384,8 @@
       <tuv lang="JA">
         <seg>ただし、次のような特殊な場合は括弧以外を区切り記号として良い:</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T233011Z" creationid="nacyot" creationdate="20140317T232748Z">
-        <seg>필요하다면 괄호 이외에 아래 기호들을 구분자로 사용한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164517Z" creationid="nacyot" creationdate="20140317T232748Z">
+        <seg>아래와 같은 특별한 경우에는 괄호 이외에 다른 기호들을 구분자로 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3464,8 +3464,8 @@
       <tuv lang="JA">
         <seg>括弧の種類はどれでも良い。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T233003Z" creationid="nacyot" creationdate="20140317T232711Z">
-        <seg>괄호의 종류는 어떤 걸 사용해도 되며, </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164440Z" creationid="nacyot" creationdate="20140317T232711Z">
+        <seg>이 때 괄호의 종류는 어떤 걸 사용해도 무방하며, </seg>
       </tuv>
     </tu>
     <tu>

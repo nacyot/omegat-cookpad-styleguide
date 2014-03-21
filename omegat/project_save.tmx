@@ -440,8 +440,8 @@
       <tuv lang="JA">
         <seg>- **[MUST]** どんな事情があろうとも1行の文字数が128文字を越えてはならない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163420Z" creationid="nacyot" creationdate="20140317T163420Z">
-        <seg>- **[MUST]** 무슨 일이 있더라도 한 줄은 128자 이하로 작성.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164207Z" creationid="nacyot" creationdate="20140317T163420Z">
+        <seg>- **[MUST]** 어떠한 경우에도 한 줄은 128자 이하로 작성한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -848,8 +848,8 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** 16進法はアルファベットの大文字で書いても小文字で書いても良いが、1つのファイルの中では統一すること。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163615Z" creationid="nacyot" creationdate="20140317T163615Z">
-        <seg>- **[SHOULD]** 16진수의 알파벳은 대소문자 어떤 것을 사용해도 상관없으나, 하나의 파일에서는 일관성을 지킬 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164330Z" creationid="nacyot" creationdate="20140317T163615Z">
+        <seg>- **[SHOULD]** 16진수를 사용할 때는 알파벳 대소문자 어떤 것을 사용해도 무관하나 하나의 파일에서는 일관성을 지켜서 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1064,16 +1064,16 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** 桁数が大きな10進法の数値リテラルは3桁毎に下線を入れて読みやすくする。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163502Z" creationid="nacyot" creationdate="20140317T163502Z">
-        <seg>- **[SHOULD]** 자리수가 큰 10진수 숫자 리터럴을 사용할 때는 3자리마다 밑줄을 넣어 읽기 쉽게 할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164234Z" creationid="nacyot" creationdate="20140317T163502Z">
+        <seg>- **[SHOULD]** 자리수가 큰 10진수 숫자 리터럴을 사용할 때는 읽기 좋게 3자리마다 밑줄을 넣는다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>- **[SHOULD]** 桁数が大きな2進法および16進法の数値リテラルは4桁毎に下線を入れて読みやすくする。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T163536Z" creationid="nacyot" creationdate="20140317T163536Z">
-        <seg>- **[SHOULD]** 자리수가 큰 2진수나 16진수를 사용할 때는 4자리마다 밑줄을 넣어 읽기 쉽게 할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164247Z" creationid="nacyot" creationdate="20140317T163536Z">
+        <seg>- **[SHOULD]** 자리수가 큰 2진수나 16진수를 사용할 때는 읽기 좋게 4자리마다 밑줄을 넣는다.</seg>
       </tuv>
     </tu>
     <tu>

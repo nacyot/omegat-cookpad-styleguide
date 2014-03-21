@@ -974,6 +974,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[SHOULD]** メソッド呼び出しにおいて、実引数の前の式が長い場合は以下の規則に基いて複数行に分けて書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T162624Z" creationid="nacyot" creationdate="20140321T162624Z">
+        <seg>- **[SHOULD]** 메소드를 호출할 때 인자가 길어질 때는 아래의 규칙에 따라 여러줄에 기술할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[SHOULD]** モジュールやクラスが外部に公開するメソッドとアクセサに対してドキュメンテーションコメントを Markdown 形式で書くこと。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T150151Z" creationid="nacyot" creationdate="20140318T150151Z">
@@ -1168,8 +1176,8 @@
       <tuv lang="JA">
         <seg>- [1行の文字数](#line-columns)</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T161628Z" creationid="nacyot" creationdate="20140317T161624Z">
-        <seg>- [한 줄의 글자수](#line-columns)</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T163126Z" creationid="nacyot" creationdate="20140317T161624Z">
+        <seg>- [한 줄의 글자수 제한](#line-columns)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1200,8 +1208,8 @@
       <tuv lang="JA">
         <seg>- [Ruby バージョン](#ruby-version)</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T161454Z" creationid="nacyot" creationdate="20140317T161454Z">
-        <seg>- [Ruby 버전](#ruby-version)</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T163108Z" creationid="nacyot" creationdate="20140317T161454Z">
+        <seg>- [루비(Ruby) 버전](#ruby-version)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1466,6 +1474,22 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T164543Z" creationid="nacyot" creationdate="20140317T164543Z">
         <seg>- 자세한 예는 [uri/common.rb 에 정의된 정규표현식](https://github.com/ruby/ruby/blob/trunk/lib/uri/common.rb#L457)을 참조.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- 実引数が長い場合はメソッド呼び出しの開き括弧 `(` の直後で改行し、次の行からインデントレベルを下げて実引数を1行に1つずつ書き、メソッド呼び出しの閉じ括弧 `)` を独立した行にインデントレベルを戻して書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T162943Z" creationid="nacyot" creationdate="20140321T162943Z">
+        <seg>- 인자가 길때는 `(` 바로 다음에 줄바꿈을 넣고 다음 행부터 들여쓰기를 한 단계 깊게 해서 한 행에 하나의 인자를 적는다. 메소드를 호출을 닫을 때는 `)`를 다음 줄에 적고, 들여쓰기는 원래도로 돌아온다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- 実引数が長くない場合はメソッド呼び出しの開き括弧 `(` に続けて第1引数を書き、次の行からインデントレベルを第1引数に合わせて第2引数以降を1行に1つずつ書き、メソッド呼び出しの閉じ括弧 `)` を最後の引数の直後に書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T163054Z" creationid="nacyot" creationdate="20140321T163054Z">
+        <seg>- 인자가 짧을 때는 `(`에 이어서 첫번째 인자를 적고, 다음 행부터는 2번째 인자부터 들여쓰기을 첫번째 인자에 맞추서 적는다. 메소드 호출을 마칠때는 `)`을 마지막 인자 바로 다음에 적는다.</seg>
       </tuv>
     </tu>
     <tu>

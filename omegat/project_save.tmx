@@ -424,8 +424,8 @@
       <tuv lang="JA">
         <seg>- **[MUST]** return, next, break が意味のある値を返さない場合は、後ろに式を書いてはならない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T144251Z" creationid="nacyot" creationdate="20140318T144251Z">
-        <seg>- **[MUST]** return, next, break 다음에 의미없는 식을 기술하지 말 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T161544Z" creationid="nacyot" creationdate="20140318T144251Z">
+        <seg>- **[MUST]** return, next, break이 의미 있는 값을 리턴하지 않을 때는 뒤에 식을 넣지 않을 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -610,6 +610,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T145549Z" creationid="nacyot" creationdate="20140318T145549Z">
         <seg>- **[MUST]** 중괄호를 사용하는 블록은 `{` 앞에 공백을 하나 사용할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- **[MUST]** 中括弧によるブロックを1行で書く場合は、`{`　またはブロックパラメータと本体コードの間、および本体コードと `}` の間に空白を1つずつ入れること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T161820Z" creationid="nacyot" creationdate="20140321T161820Z">
+        <seg>- **[MUST]** 중괄호를 사용하는 블록을 한 행에 기술하는 경우 `{` 또는 블록 인자와 본문 코드, 본문 코드와 `}` 사이에 공백을 하나씩 넣는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1338,6 +1346,22 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T165546Z" creationid="nacyot" creationdate="20140317T165546Z">
         <seg>- 단 `式 or raise 'message'`과 같이 사용할 때 `or`은 사용해도 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- コントローラのアクションの内部で redirect_to や render などの継続処理を宣言するメソッドを呼び出す場合は、return や next の後ろにそれらのメソッド呼び出しを記述してよい。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T161617Z" creationid="nacyot" creationdate="20140321T161617Z">
+        <seg>- 단 컨트롤러의 액션에서 redirect_to나 render와 같은 계속 처리를 선언하는 메소드를 호출할 때는 return이나 next 뒤에서 이런 메소드를 호출해도 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- メソッド呼び出しを入れ子にする場合、他の規則で禁止されている場合を除いて、最も外側のメソッド呼び出しの括弧を省略してもよい。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T161707Z" creationid="nacyot" creationdate="20140321T161707Z">
+        <seg>메소드 호출 안에서 메소드를 호출하는 겨우에 다른 규칙에서 금지하고 있는 경우를 제외하면 가장 바깥의 메소드 호출 괄호를 생략해도된다.</seg>
       </tuv>
     </tu>
     <tu>

@@ -496,24 +496,24 @@
       <tuv lang="JA">
         <seg>- **[MUST]** ハッシュリテラルは、Symbol を key にするときは HashRocket (Ruby 1.8 までで使われていた `=&gt;` の記法`{ :foo =&gt; 42 }`)を使わない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T165200Z" creationid="nacyot" creationdate="20140317T165200Z">
-        <seg>- **[MUST]** 해시 리터럴을 사용할 때 Symbol을 key로 사용하는 경우 HashRocket(Ruby 1.8에서 사용되던 `=&gt;`을 사용한 표현. 예: `{ :foo =&gt; 42 }`)를 사용하지 말 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165759Z" creationid="nacyot" creationdate="20140317T165200Z">
+        <seg>- **[MUST]** 해시 리터럴에서 Symbol을 key로 사용할 때 HashRocket(Ruby 1.8에서 사용되던 `=&gt;`을 사용한 표현. 예: `{ :foo =&gt; 42 }`)문법을 사용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>- **[MUST]** ハッシュリテラルを一行に書くときは、`{` と第一要素のキーとの間、および最終要素の値と `}` との間にそれぞれ空白を一つずつ入れること。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T165053Z" creationid="nacyot" creationdate="20140317T165048Z">
-        <seg>- **[MUST]** 해시 리터럴을 한 줄에 작성할 때는 `{` 와 첫번째 요소 사이, 그리고 마지막 요소와 `}` 사이에 각각 하나의 공백을 넣을 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165723Z" creationid="nacyot" creationdate="20140317T165048Z">
+        <seg>- **[MUST]** 해시 리터럴을 한 줄에 작성할 때는 `{` 와 첫번째 요소 사이와 마지막 요소와 `}` 사이에 각각 하나의 공백을 넣는다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>- **[MUST]** ハッシュリテラルを単独で複数行で書く場合は、`{` の後に第一要素を書き、第二要素以降のインデントを1レベル下げ、`}` は独立した行に置いて `{` を書いた行の行頭にインデントを揃える。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T151522Z" creationid="nacyot" creationdate="20140318T151522Z">
-        <seg>- **[MUST]** 해시만 독립적으로 여러줄에 걸쳐서 적을 때는 `{` 다음에 바로 첫번째 요소를 적고, 두번째 요소부터는 한 단계 들여쓰기 한다. `}`는 별도의 행에 적으며, `{`를 입력한 행의 앞부분과 들여쓰기를 맞춘다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T170002Z" creationid="nacyot" creationdate="20140318T151522Z">
+        <seg>- **[MUST]** 해시만 독립적으로 여러줄에 걸쳐서 작성할 때는 `{` 다음에 바로 첫번째 요소를 입력하고, 두번째 요소부터는 한 단계 들여쓰기 한다. `}`는 별도의 행에 작성하고, `{`를 입력한 행의 앞부분과 들여쓰기를 맞춘다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -648,16 +648,16 @@
       <tuv lang="JA">
         <seg>- **[MUST]** 代入の後ろに配列リテラルを複数行で書く場合は、`[` の後ろで改行し、要素行のインデントを1レベル下げ、`]` は独立した行に置いて `[` を書いた行の行頭にインデントを揃える。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140321T165509Z" creationid="nacyot" creationdate="20140318T151301Z">
-        <seg>- **[MUST]** 대입문에서 배열 리터럴을 여러 줄에 걸쳐 작성할 때는 `[` 뒤에서 줄바꿈하고 요소를 입력하는 줄들은 한단계씩 들여쓰기 하고 배열을 닫는 `]`는 별도의 줄에 적는다. 이 때는 `]`는 `[`이 있는 줄의 첫 부분과 들여쓰기를 맞춘다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165929Z" creationid="nacyot" creationdate="20140318T151301Z">
+        <seg>- **[MUST]** 대입식에서 배열 리터럴을 여러 줄에 걸쳐 작성할 때는 `[` 뒤에서 줄바꿈하고 요소를 입력하는 줄들은 한단계씩 들여쓰기 하고 배열을 닫는 `]`는 별도의 줄에 적는다. 이 때 `]`는 `[`이 있는 줄의 첫 부분과 들여쓰기를 맞춘다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>- **[MUST]** 代入の後ろに配列リテラルを複数行で書く場合は、`{` の後で改行し、要素行のインデントを1レベル下げ、`}` は独立した行に置いて `{` を書いた行の行頭にインデントを揃える。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T151640Z" creationid="nacyot" creationdate="20140318T151640Z">
-        <seg>- **[MUST]** 대입문 우변에 해시 리터럴을 여러 줄에 걸쳐서 적을 때는 `{` 뒤에서 줄바꿈하고 각 요소들은 한단계 들여쓰기 해서 적는다. `}`는 별도의 줄에 적고 `{`을 적은 줄의 앞 부분과 들여쓰기를 맞춘다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T170030Z" creationid="nacyot" creationdate="20140318T151640Z">
+        <seg>- **[MUST]** 대입식에서 해시 리터럴을 여러 줄에 걸쳐서 작성할 때는 `{` 뒤에서 줄바꿈하고 각 요소들은 한단계 들여쓰기해서 작성한다. `}`는 별도의 줄에 입력하고 `{`을 적은 줄의 앞부분과 들여쓰기를 맞춘다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -704,8 +704,8 @@
       <tuv lang="JA">
         <seg>- **[MUST]** 引数なしの `Array.new` を使ってはならない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T164829Z" creationid="nacyot" creationdate="20140317T164821Z">
-        <seg>- **[MUST]** 인수 없이 `Array.new` 메소드를 사용하지 않을 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165620Z" creationid="nacyot" creationdate="20140317T164821Z">
+        <seg>- **[MUST]** 인수 없이 `Array.new` 메소드를 사용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -784,16 +784,16 @@
       <tuv lang="JA">
         <seg>- **[MUST]** 空ハッシュは `{}` と書くこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T165318Z" creationid="nacyot" creationdate="20140317T165318Z">
-        <seg>- **[MUST]** 빈 해시는 `{}`를 사용.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165824Z" creationid="nacyot" creationdate="20140317T165318Z">
+        <seg>- **[MUST]** 빈 해시는 `{}`를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>- **[MUST]** 空配列は `[]` と書くこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T164815Z" creationid="nacyot" creationdate="20140317T164815Z">
-        <seg>- **[MUST]** 빈 배열은 `[]`을 사용.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165614Z" creationid="nacyot" creationdate="20140317T164815Z">
+        <seg>- **[MUST]** 빈 배열은 `[]`을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -952,8 +952,8 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** ハッシュリテラルの key が symbol だが、`.`, `-`等を含む場合、HashRocket に統一するのが望ましい。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T165304Z" creationid="nacyot" creationdate="20140317T165252Z">
-        <seg>- **[SHOULD]** 해시 리터럴의 key가 symbol이지만 `.`, `-`와 같은 기호를 사용할 때는 HashRokcet 문법만 사용할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165816Z" creationid="nacyot" creationdate="20140317T165252Z">
+        <seg>- **[SHOULD]** 해시 리터럴의 key가 symbol이지만 `.`, `-`와 같은 기호를 사용할 때는 HashRokcet 문법만 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1008,8 +1008,8 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** 同じ要素を `n` 個持つ配列を初期化するときは `Array.new(n, obj)` を使用すること。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T164851Z" creationid="nacyot" creationdate="20140317T164851Z">
-        <seg>- **[SHOULD]** 같은 요소를 `n` 개 가진 배열을 초기화할 때는 `Array.new(n, obj)`을 사용할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165629Z" creationid="nacyot" creationdate="20140317T164851Z">
+        <seg>- **[SHOULD]** 같은 요소를 `n` 개 가진 배열을 초기화할 때는 `Array.new(n, obj)`을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1040,8 +1040,8 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** 文字列配列は%記法 `%w(...)` or `%W(...)` を用いて書くこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T164738Z" creationid="nacyot" creationdate="20140317T164738Z">
-        <seg>- **[SHOULD]** 문자열로 구성된 배열을 만들 때는 `%w(...)`이나 `%W(...)` 문법을 사용할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165607Z" creationid="nacyot" creationdate="20140317T164738Z">
+        <seg>- **[SHOULD]** 문자열로만 구성된 배열을 만들 때는 `%w(...)`이나 `%W(...)` 문법을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1112,8 +1112,8 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** 範囲リテラルを配列に変換するときは、`Range#to_a` ではなく `[*range]` を使うこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T164955Z" creationid="nacyot" creationdate="20140317T164955Z">
-        <seg>- **[SHOULD]** 범위(Range) 리터럴을 배열로 변환하고자 할 대는 `Range#to_a` 메소드를 사용하지 말고 `[*range]` 표현을 사용할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165702Z" creationid="nacyot" creationdate="20140317T164955Z">
+        <seg>- **[SHOULD]** 범위(Range) 리터럴을 배열로 변환할 때는 `Range#to_a` 메소드를 사용하지 않고, `[*range]` 표현을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1128,8 +1128,8 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** 複数行の配列リテラルでは、最後の要素の後ろにも `,` を書くこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T164801Z" creationid="nacyot" creationdate="20140317T164801Z">
-        <seg>- **[SHOULD]** 여러줄로 된 배열 리터럴을 생성할 때는 마지막 요소 뒤에서 `,`를 입력할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165558Z" creationid="nacyot" creationdate="20140317T164801Z">
+        <seg>- **[SHOULD]** 여러줄로 된 배열 리터럴을 사용할 때는 마지막 요소 다음에도 `,`를 입력한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2464,8 +2464,8 @@
       <tuv lang="JA">
         <seg>`[obj] * n` と書いてはならない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T164904Z" creationid="nacyot" creationdate="20140317T164858Z">
-        <seg>`[obj] * n` 을 사용하지 말 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165635Z" creationid="nacyot" creationdate="20140317T164858Z">
+        <seg>`[obj] * n` 을 사용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>

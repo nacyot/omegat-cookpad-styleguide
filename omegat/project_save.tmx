@@ -328,16 +328,16 @@
       <tuv lang="JA">
         <seg>)` を使うこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T164326Z" creationid="nacyot" creationdate="20140317T164326Z">
-        <seg>)`를 사용할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165248Z" creationid="nacyot" creationdate="20140317T164326Z">
+        <seg>)` 그룹를 사용할 것.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>)`) を使用して可読性を向上させること。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T151132Z" creationid="nacyot" creationdate="20140318T151132Z">
-        <seg>)`)을 사용해 가독성을 높일 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165313Z" creationid="nacyot" creationdate="20140318T151132Z">
+        <seg>)`)을 활용해 가독성을 높인다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -688,16 +688,16 @@
       <tuv lang="JA">
         <seg>- **[MUST]** 式展開の中で `Object#to_s` だけを呼び出してはならない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T232838Z" creationid="nacyot" creationdate="20140317T232838Z">
-        <seg>- **[MUST]** 문자열 보간에서 `Object#to_s`만 사용해서는 안 됩니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164917Z" creationid="nacyot" creationdate="20140317T232838Z">
+        <seg>- **[MUST]** 문자열 보간을 사용할 때 단지 `Object#to_s`를 호출하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>- **[MUST]** 式展開の中括弧を省略してはならない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T232912Z" creationid="nacyot" creationdate="20140317T232912Z">
-        <seg>- **[MUST]** 문자열 보간 시에는 반드시 중괄호를 사용합니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165010Z" creationid="nacyot" creationdate="20140317T232912Z">
+        <seg>- **[MUST]** 문자열 보간을 사용할 때 중괄호를 생략할 수 있는 경우가 있지만, 생략하지 않고 반드시 중괄호를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -728,8 +728,8 @@
       <tuv lang="JA">
         <seg>- **[MUST]** 文字列の破壊的追記を `+=` で行ってはならない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T151048Z" creationid="nacyot" creationdate="20140318T151048Z">
-        <seg>- **[MUST]** 문자열에 파괴적인 연결 연산자 `+=`를 사용하지 말 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165210Z" creationid="nacyot" creationdate="20140318T151048Z">
+        <seg>- **[MUST]** 문자열에 파괴적인 연결 연산자인 `+=`를 사용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -816,8 +816,8 @@
       <tuv lang="JA">
         <seg>- **[MUST]** 配列リテラルを複数行で書く場合、`[`と一つ目の要素の間に1つの空白を入れて、要素の先頭を揃えること。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T164632Z" creationid="nacyot" creationdate="20140317T164632Z">
-        <seg>- **[MUST]** 배열 리터럴을 여러줄에 걸쳐서 작성할 때는 `[`와 첫번째 요소 사이에 하나의 공백을 두어 요소들의 줄을 맞출 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165338Z" creationid="nacyot" creationdate="20140317T164632Z">
+        <seg>- **[MUST]** 배열 리터럴을 여러 줄로 작성할 때는 `[`와 첫번째 요소 사이에 하나의 공백을 두고 요소들의 줄을 맞출 것.</seg>
       </tuv>
     </tu>
     <tu>
@@ -832,8 +832,8 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** (Ruby 1.9+) Unicode 文字をエスケープシーケンスで書く場合は、`"\xE3\x8C\xB3"` ではなく `"\u{3333}"` のように、`\u` を使うこと。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T232943Z" creationid="nacyot" creationdate="20140317T232943Z">
-        <seg>- **[SHOULD]** (Ruby 1.9+) Unicode 문자를 이스케이스 시켄스로 입력할 때는 `"\xE3\x8C\xB3"` 방식이 아니라 `"\u{3333}"`와 같이 `\u`를 사용할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165018Z" creationid="nacyot" creationdate="20140317T232943Z">
+        <seg>- **[SHOULD]** (Ruby 1.9+) Unicode 문자를 이스케이스 시켄스로 입력할 때는 `"\xE3\x8C\xB3"` 방식이 아니라 `"\u{3333}"`와 같이 `\u`를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1024,16 +1024,16 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** 必要のない後方参照グループを作成してはならない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T164418Z" creationid="nacyot" creationdate="20140317T164320Z">
-        <seg>- **[SHOULD]** 재참조 하지 않는 캡쳐 그룹은 사용하지 않는다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165256Z" creationid="nacyot" creationdate="20140317T164320Z">
+        <seg>- **[SHOULD]** 역참조하지 않는 그룹은 지정하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="JA">
         <seg>- **[SHOULD]** 文字列リテラルに対して `String#+` を用いて他の文字列を連結してはならない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T151023Z" creationid="nacyot" creationdate="20140318T151023Z">
-        <seg>- **[SHOULD]** 문자열을 리터럴에 대해서 `String#+` 메소드를 사용해서 문자열을 연결하지 말 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165121Z" creationid="nacyot" creationdate="20140318T151023Z">
+        <seg>- **[SHOULD]** 문자열 리터럴들을 `String#+` 메소드를 사용해서 연결하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2456,8 +2456,8 @@
       <tuv lang="JA">
         <seg>`String#&lt;&lt;` または `String#concat` を使用すること。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T151052Z" creationid="nacyot" creationdate="20140318T151052Z">
-        <seg>`String#&lt;&lt;` 또는 `String#concat`를 사용할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165223Z" creationid="nacyot" creationdate="20140318T151052Z">
+        <seg>`String#&lt;&lt;` 메소드나 `String#concat` 메소드를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3328,8 +3328,8 @@
       <tuv lang="JA">
         <seg>ここでループとは `while`、`until`、`for`、およびイテレータ (`each` などのブロックを何度も呼び出すブロック付きメソッド呼び出しのブロック内) である。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T151004Z" creationid="nacyot" creationdate="20140318T151004Z">
-        <seg>여기서 루프란 `while`, `until`, `for`와 `each`와 같이 블록을 사용하는 반복자 표현을 의미한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165052Z" creationid="nacyot" creationdate="20140318T151004Z">
+        <seg>여기서 루프란 `while`, `until`, `for`을 비롯해 `each`와 같은 블록을 사용하는 반복자 표현을 의미한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3360,8 +3360,8 @@
       <tuv lang="JA">
         <seg>ただし、Ruby 1.8 系でも動作する必要があるスクリプトではこの限りではない。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T150926Z" creationid="nacyot" creationdate="20140317T232946Z">
-        <seg>단 루비 1.8 버전대에서도 돌아가야하는 스크립트라면 적용하지 않는다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165033Z" creationid="nacyot" creationdate="20140317T232946Z">
+        <seg>루비 1.8 버전을 지원해야하는 스크립트라면 적용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3400,8 +3400,8 @@
       <tuv lang="JA">
         <seg>たとえばこういうの→`"#{obj.to_s}"`</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T232856Z" creationid="nacyot" creationdate="20140317T232856Z">
-        <seg>예) `"#{obj.to_s}"`</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T164938Z" creationid="nacyot" creationdate="20140317T232856Z">
+        <seg>예) `"#{obj.to_s}"` -&gt; `obj.to_s`</seg>
       </tuv>
     </tu>
     <tu>
@@ -3456,8 +3456,8 @@
       <tuv lang="JA">
         <seg>式展開を使用すること。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T151029Z" creationid="nacyot" creationdate="20140318T151029Z">
-        <seg>문자열 보간법을 사용할 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165127Z" creationid="nacyot" creationdate="20140318T151029Z">
+        <seg>문자열 보간법을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>

@@ -352,8 +352,8 @@
       <tuv lang="JA">
         <seg>- **[MUST]** 1レベルのインデントに2つの空白を使用する。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T162706Z" creationid="nacyot" creationdate="20140317T162706Z">
-        <seg>- **[MUST]** 1단계의 들여쓰기는 2개의 스페이스를 사용한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T163636Z" creationid="nacyot" creationdate="20140317T162706Z">
+        <seg>- **[MUST]** 한 단계의 들여쓰기는 두 번의 스페이스를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -856,8 +856,8 @@
       <tuv lang="JA">
         <seg>- **[SHOULD]** Ruby 2.0 のプロジェクトでは、キーワード引数、シンボルリテラル(`%i`)など、Ruby 2.0 で新しく加わった Syntax を推奨する。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T162642Z" creationid="nacyot" creationdate="20140317T162642Z">
-        <seg>- **[SHOULD]** 루비 2.0 프로젝트에서는 키워드 인스, 심볼 리터럴(`%i`)과 같이 루비 2.0에서 추가된 기능을 적극 활용한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T163624Z" creationid="nacyot" creationdate="20140317T162642Z">
+        <seg>- **[SHOULD]** 루비 2.0 이상의 버전을 사용하는 프로젝트에서는 키워드 인수, 심볼 리터럴(`%i`)을 비롯한 루비 2.0에서 추가된 기능을 적극 활용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1256,8 +1256,8 @@
       <tuv lang="JA">
         <seg>- [代入式](#assignments)</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T161740Z" creationid="nacyot" creationdate="20140317T161740Z">
-        <seg>- [대입](#assignments)</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T163131Z" creationid="nacyot" creationdate="20140317T161740Z">
+        <seg>- [대입식](#assignments)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1312,8 +1312,8 @@
       <tuv lang="JA">
         <seg>- [演算式](#operations)</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T161743Z" creationid="nacyot" creationdate="20140317T161734Z">
-        <seg>- [계산](#operations)</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T163134Z" creationid="nacyot" creationdate="20140317T161734Z">
+        <seg>- [계산식](#operations)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2232,8 +2232,8 @@
       <tuv lang="JA">
         <seg>Ruby プログラマとしての素養をある程度備えている者なら誰もが読みやすいコードになるよう、可読性と一貫性を重視して規準を定めている。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T150708Z" creationid="nacyot" creationdate="20140318T150708Z">
-        <seg>Ruby 프로그래머로서 소양을 갖춘 살마이라면 누구라도 읽기 쉬운 코드가 되도록 가독성과 일관성에 중심을 두고 정한 규칙입니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T163259Z" creationid="nacyot" creationdate="20140318T150708Z">
+        <seg>이 문서에서는 최소한의 실력을 갖춘 Ruby 프로그래머라면 누구라도 읽기 쉬운 코드가 되도록 가독성과 일관성에 무게를 둔 스타일을 정의하고 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3320,8 +3320,8 @@
       <tuv lang="JA">
         <seg>「bad」として例示されている記法の中には、特に悪いと思えないようなものも存在しているが、その理由はコードの一貫性を保つためである。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T150802Z" creationid="nacyot" creationdate="20140318T150802Z">
-        <seg>'bad'라고 표기된 예제 중에는 사용해도 무방한 경우도 있습니다만 코드의 일관성을 중시한 구칙입니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T163453Z" creationid="nacyot" creationdate="20140318T150802Z">
+        <seg>'bad'라고 표기된 예제 중에는 코드를 정말 사용하지 말라는 의미보다는 코드의 일관성을 위해 지양해야한다는 의미도 담고 있는 경우도 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3472,8 +3472,8 @@
       <tuv lang="JA">
         <seg>本文書は、クックパッド株式会社での Ruby コードのスタイル規準を定めるものである。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140317T161912Z" creationid="nacyot" creationdate="20140317T161912Z">
-        <seg>이 문서는 주식회사 쿡패드(Cookpad)의 루비 코드 스타일 표준을 정의한 문서입니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T163157Z" creationid="nacyot" creationdate="20140317T161912Z">
+        <seg>이 문서는 주식회사 쿡패드(Cookpad)의 루비 코드 표준 스타일을 정의한 문서입니다.</seg>
       </tuv>
     </tu>
     <tu>

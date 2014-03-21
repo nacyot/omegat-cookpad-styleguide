@@ -542,6 +542,14 @@
     </tu>
     <tu>
       <tuv lang="JA">
+        <seg>- **[MUST]** プライベートまたはプロテクテッドなクラスメソッドを定義する場合は `class &lt;&lt; self`/`end` の中でメソッドを定義し、可視性を変更すること。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T162023Z" creationid="nacyot" creationdate="20140321T162023Z">
+        <seg>- **[MUST]** private/protected 클래스 메소드를 정의할 때는 `class &lt;&lt; self` / `end` 안에서 메소드를 정의하고 가시성을 변경할 것.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
         <seg>- **[MUST]** マジックコメントが必要な場合は以下の形式で書くこと。</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140317T163300Z" creationid="nacyot" creationdate="20140317T163243Z">
@@ -1098,6 +1106,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140318T151125Z" creationid="nacyot" creationdate="20140318T151125Z">
         <seg>- **[SHOULD]** 복잡한 정규표현식을 사용할 때는 `x` 옵션을 사용해 줄바꿈, 공백, 주석 (`(?# ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="JA">
+        <seg>- DSL 的なメソッドを複数行で書く場合は、第1引数をメソッド名の直後に書き、次の行から第2引数以降を1行に1つずつインデントレベルを1つ下げて書くこと。</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T161943Z" creationid="nacyot" creationdate="20140321T161943Z">
+        <seg>- DSL스러운 메소드를 여러 줄에 걸쳐서 호출할 때는 첫번째 인수를 메소드 메소드 이름 바로 뒤에 적고, 다음 줄부터 두번째 인수부터 하나 씩 한 줄에 걸쳐 들여쓰기를 한 단계 깊게한다.</seg>
       </tuv>
     </tu>
     <tu>

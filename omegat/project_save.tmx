@@ -648,8 +648,8 @@
       <tuv lang="JA">
         <seg>- **[MUST]** 代入の後ろに配列リテラルを複数行で書く場合は、`[` の後ろで改行し、要素行のインデントを1レベル下げ、`]` は独立した行に置いて `[` を書いた行の行頭にインデントを揃える。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T151301Z" creationid="nacyot" creationdate="20140318T151301Z">
-        <seg>- **[MUST]** 대입문 우변에 배열 리터럴을 여러 줄에 걸쳐서 적을 때는 `[` 뒤에서 줄바꿈하고 요소가 들어가는 행을 한단계 들여쓰기 하고 `]`는 별도의 줄에 적는다. 이 때는 `]`는 `[`이 있는 줄의 첫 부분과 들여쓰기를 맞춘다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165509Z" creationid="nacyot" creationdate="20140318T151301Z">
+        <seg>- **[MUST]** 대입문에서 배열 리터럴을 여러 줄에 걸쳐 작성할 때는 `[` 뒤에서 줄바꿈하고 요소를 입력하는 줄들은 한단계씩 들여쓰기 하고 배열을 닫는 `]`는 별도의 줄에 적는다. 이 때는 `]`는 `[`이 있는 줄의 첫 부분과 들여쓰기를 맞춘다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -816,8 +816,8 @@
       <tuv lang="JA">
         <seg>- **[MUST]** 配列リテラルを複数行で書く場合、`[`と一つ目の要素の間に1つの空白を入れて、要素の先頭を揃えること。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140321T165338Z" creationid="nacyot" creationdate="20140317T164632Z">
-        <seg>- **[MUST]** 배열 리터럴을 여러 줄로 작성할 때는 `[`와 첫번째 요소 사이에 하나의 공백을 두고 요소들의 줄을 맞출 것.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140321T165406Z" creationid="nacyot" creationdate="20140317T164632Z">
+        <seg>- **[MUST]** 배열 리터럴을 여러 줄로 작성할 때는 `[`와 첫번째 요소 사이에 하나의 공백을 두고 요소들의 들여쓰기를 맞춘다.</seg>
       </tuv>
     </tu>
     <tu>

@@ -1,17 +1,17 @@
-14. 3. 22 오후 6:13
-Project Statistics
+14. 3. 22 오후 10:10
+프로젝트 통계
 
-                 	Segments	Words	Characters (without spaces)	Characters (including spaces)	
-Total:           	     906	 4705	                      19414	                        20927	
-Remaining:       	     107	  928	                       3350	                         3484	
-Unique:          	     542	 4303	                      17034	                        18304	
-Unique Remaining:	     107	  928	                       3350	                         3484	
+      	 부분	  단어	문자 (공백 없이)	문자 (공백 포함)	
+총:    	906	4705	     19414	     20927	
+남은:   	107	 928	      3350	      3484	
+고유:   	542	4303	     17034	     18304	
+남은 고유:	107	 928	      3350	      3484	
 
 
-Individual File Statistics:
+개별 파일 통계:
 
-File Name        	Total Segments	Remaining Segments	Unique Segments	Unique Remaining Segments	Total Words	Remaining Words	Unique Words	Unique Remaining Words	Total Characters (without spaces)	Remaining Characters (without spaces)	Unique Characters (without spaces)	Unique Remaining Characters (without spaces)	Total Characters (including spaces)	Remaining Characters (including spaces)	Unique Characters (including spaces)	Unique Remaining Characters (including spaces)	
-java.ja.md       	           154	                49	            109	                       49	        531	            306	         503	                   306	                             2622	                                 1115	                              2381	                                        1115	                               2816	                                   1168	                                2551	                                          1168	
-objective-c.ja.md	           176	                58	            116	                       58	        874	            622	         816	                   622	                             4537	                                 2235	                              4033	                                        2235	                               4785	                                   2316	                                4239	                                          2316	
-README.md        	            13	                 0	             13	                        0	         83	              0	          83	                     0	                              542	                                    0	                               542	                                           0	                                612	                                      0	                                 612	                                             0	
-ruby.ja.md       	           563	                 0	            304	                        0	       3217	              0	        2901	                     0	                            11713	                                    0	                             10078	                                           0	                              12714	                                      0	                               10902	                                             0	
+파일 이름            	총 부분	나머지 부분	고유 부분	남은 고유 부분	총 단어	남은 단어	고유 단어	나머지 고유 단어	총 문자 (공백 없이)	나머지 문자 (공백 없이)	고유 문자 (공백 없이)	나머지 고유 문자 (공백 없이)	총 문자 (공백 포함)	나머지 문자 (공백 포함)	고유 문자 (공백 포함)	나머지 고유 문자 (공백 포함)	
+java.ja.md       	 154	    49	  109	      49	 531	  306	  503	      306	        2622	          1115	         2381	             1115	        2816	          1168	         2551	             1168	
+objective-c.ja.md	 176	    58	  116	      58	 874	  622	  816	      622	        4537	          2235	         4033	             2235	        4785	          2316	         4239	             2316	
+README.md        	  13	     0	   13	       0	  83	    0	   83	        0	         542	             0	          542	                0	         612	             0	          612	                0	
+ruby.ja.md       	 563	     0	  304	       0	3217	    0	 2901	        0	       11713	             0	        10078	                0	       12714	             0	        10902	                0	

@@ -1,0 +1,30 @@
+language: ruby
+rvm:
+  - 2.1
+env:
+  global:
+  - GIT_COMMITTER_NAME=nacyot
+  - GIT_COMMITTER_EMAIL=propellerheaven@gmail.com
+  - GIT_AUTHOR_NAME=nacyot
+  - GIT_AUTHOR_EMAIL=propellerheaven@gmail.com
+before_install:
+  - sudo apt-get install -qq openjdk-6-jdk omegat
+  - gem install nokogiri
+before_script:
+  - rm -rf target
+  - mkdir -p tm/auto
+  - mkdir target
+  - git clone https://github.com/nacyot/omegat-glossary.git glossary  
+  - git clone https://github.com/nacyot/omegat-dictionary.git dictionary
+  - git clone https://github.com/nacyot/styleguide.git source
+  - git clone https://github.com/nacyot/styleguide.git origin
+script:
+  - /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java -jar /usr/share/omegat/OmegaT.jar . --mode=console-translate
+after_success:
+  - rm -rf ./target/.git
+  - cp /target/ruby.ja.md /origin/ruby.ko.md
+  - cd origin
+  - git checkout master
+  - git add --all .
+  - git commit -m 'Update korean page'
+  - git push --quiet https://$GH_TOKEN@github.com/nacyot/styleguide.git master

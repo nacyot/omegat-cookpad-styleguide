@@ -10,7 +10,6 @@ env:
   - secure: dbJeeXbKWkyOr8DNbI69FCt/qDnyKK4yvvC7sGMOyuVvnIbMzKdd/uEpur2w6r2csAdSOIwlz28204UrUImcaWuln86wPofYHrI0dmQaMpx0xlH7CdNcvJYsDfWhf1M+Zll7Gfm5WnONQbpZRPn+BT2wxF3ASZLye4KiDwgLvp0=
 before_install:
   - sudo apt-get install -qq openjdk-6-jdk omegat
-  - gem install nokogiri
 before_script:
   - rm -rf target
   - mkdir -p tm/auto
@@ -22,8 +21,7 @@ before_script:
 script:
   - "/usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java -jar /usr/share/omegat/OmegaT.jar . --mode=console-translate"
 after_success:
-  - rm -rf ./target/.git
-  - cp /target/ruby.ja.md /origin/ruby.ko.md
+  - cp target/ruby.ja.md origin/ruby.ko.md
   - cd origin
   - git checkout master
   - git add --all .

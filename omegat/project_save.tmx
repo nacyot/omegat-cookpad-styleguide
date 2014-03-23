@@ -786,8 +786,8 @@
       <tuv lang="JA">
         <seg>- **[MUST]** 破壊的メソッドを使用する際は、その副作用を最小限の範囲に留めること。</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140318T150616Z" creationid="nacyot" creationdate="20140318T150616Z">
-        <seg>- **[MUST]** 파괴적인 메소드를 사용할 때는 그 영향 범위를 최소한으로 만든다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140323T103524Z" creationid="nacyot" creationdate="20140318T150616Z">
+        <seg>- **[MUST]** 파괴적인 메소드를 사용할 때는 그 영향 범위를 최소한으로 한정한다.</seg>
       </tuv>
     </tu>
     <tu>
